@@ -18,7 +18,10 @@ export default Events
 
 const events = {
     march10: {
-        title: 'March 10', date: 'March 10th', description: 'Food, music, stargazing and fun on Ajo\'s Scenic Loop. Don\'t miss it!',
+        title: 'March 10',
+        date: 'March 10th',
+        time:'5:30-9:00 PM',
+        description: 'Food, music, stargazing and fun on Ajo\'s Scenic Loop. Don\'t miss it!',
         image: {
             url: '/firesideJam.jpeg', alt: 'Love Works Poster'
         },

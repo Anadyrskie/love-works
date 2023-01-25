@@ -17,7 +17,7 @@ export function EventCard({event, open, selected}) {
             <div className="flex flex-col inline-flex ml-4 w-[80%] leading-normal">
                 <h3 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white"> {event.title}</h3>
                 <div>
-                    <span className={`text-l text-gray-700 dark:text-gray-400 ${selected ? 'dark:text-gray-300' : ''} items-center`}>
+                    <span className={`text-gray-700 dark:text-gray-400 ${selected ? 'dark:text-gray-300' : ''} items-center`}>
                         <svg className={'fill-gray-500 dark:fill-gray-600 w-[1em] h-[1em] inline-block'} viewBox="0 0 395.71 395.71">
                             <g>
                                 <path d="M197.849,0C122.131,0,60.531,61.609,60.531,137.329c0,72.887,124.591,243.177,129.896,250.388l4.951,6.738
@@ -28,6 +28,7 @@ export function EventCard({event, open, selected}) {
                         </svg>
                         <p className="inline-block ml-1">{event.location.name}</p>
                     </span>
+                    {event.time ? <h6 className={`text-sm tracking-tight text-gray-700 dark:text-gray-400 ${selected ? 'dark:text-gray-300' : ''}`}> {event.time}</h6> : ''}
                 </div>
                 <p className="mt-1  text-gray-900  dark:text-white font-normal">{event.description}</p>
             </div>
