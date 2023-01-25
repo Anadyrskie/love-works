@@ -2,10 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-export default function EventPanel({event}) {
+export default function EventPanel(props) {
+    const {event} = props;
     return (
         <div
-            className={`flex bg-white py-6 px-10 border w-full sm:min-h-[8em] shadow-lg` +
+            className={`flex py-6 px-10 border w-full sm:min-h-[8em] shadow-lg` +
                 `flex-row dark:border-gray-700 rounded-lg space-x-4`}>
             <div className='inline-block flex flex-col w-[20%]'>
                 <Image className="rounded-[28px]"
@@ -16,9 +17,8 @@ export default function EventPanel({event}) {
                 />
             </div>
 
-            <div className="flex flex-col inline-flex leading-normal w-[80%]">
+            <div className="flex flex-col inline-flex leading-normal w-[80%] dark:text-white font-normal">
                 <h5 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white"> {event.title}</h5>
-                <h6 className="text-l tracking-tight text-gray-700 dark:text-gray-400 "> {event.date}</h6>
                 <div>
                     <a href={event.location.link} className="text-l text-gray-700 dark:text-gray-400 items-center">
                         <svg className={'fill-gray-500 dark:fill-gray-600 w-[1em] h-[1em] inline-block'} viewBox="0 0 395.71 395.71">
@@ -32,9 +32,7 @@ export default function EventPanel({event}) {
                         <p className="inline-block ml-1">{event.location.name}</p>
                     </a>
                 </div>
-                <p className="mt-t dark:text-white font-normal">{event.panel.p1}</p>
-                <p className="mt-2 dark:text-white font-normal">{event.panel.p2}</p>
-                <p className="mt-2 dark:text-white font-normal">{event.panel.p3}</p>
+                {props.children}
             </div>
             <Link href={`/events/${event.title}/vendors`} className='right sm:max-w-[10%]'>
                 <button name='Vendors' className="bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Vendors</button>

@@ -5,7 +5,7 @@ import EventAccordion from "@/components/home/Events/EventAccordion";
 export default function Accordion({events}) {
     return (
         <div className='flex flex-wrap justify-center p-5 items-top mx-auto gap-5 m-auto'>
-            {events.map((event) => (
+            {Object.values(events).map((event) => (
                 <div key={event.title + ' accordion'} className='max-w-[320px]'>
                     <Disclosure >
                         {({ open }) => (

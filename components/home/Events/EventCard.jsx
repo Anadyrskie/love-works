@@ -7,7 +7,7 @@ export function EventCard({event, open, selected}) {
                 `flex-row hover:bg-gray-100 dark:border-gray-700  dark:hover:bg-gray-700 cursor-pointer ` +
         `${open ? 'rounded-t-lg border-b-[0px]' : 'rounded-lg shadow-md'} ${selected ? 'shadow-[0_10px_25px_7px_rgba(0,0,0,0.2)] dark:bg-gray-700' : ''}`}>
             <div className='inline-block'>
-                <Image className="rounded-[28px]"
+                <Image className="rounded-[25px] shadow-md"
                        src={event.image.url}
                        alt={event.image.alt}
                        width={100}
@@ -16,7 +16,6 @@ export function EventCard({event, open, selected}) {
             </div>
             <div className="flex flex-col inline-flex ml-4 w-[80%] leading-normal">
                 <h3 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white"> {event.title}</h3>
-                <h6w className={`text-l tracking-tight text-gray-700 dark:text-gray-400 ${selected ? 'dark:text-gray-300' : ''}`}> {event.date}</h6w>
                 <div>
                     <span className={`text-l text-gray-700 dark:text-gray-400 ${selected ? 'dark:text-gray-300' : ''} items-center`}>
                         <svg className={'fill-gray-500 dark:fill-gray-600 w-[1em] h-[1em] inline-block'} viewBox="0 0 395.71 395.71">

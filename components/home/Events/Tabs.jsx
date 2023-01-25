@@ -8,7 +8,7 @@ export default function Tabs({events}) {
             <Tab.Group>
                 <Tab.List className="bg-white justify-center flex dark:bg-gray-800 columns-3 p-5">
 
-                {events.map((event) => (
+                {Object.values(events).map((event) => (
                                 <Tab
                                     key={event.title + ' tab'}
                                     as="div"
@@ -21,11 +21,27 @@ export default function Tabs({events}) {
                         ))}
                 </Tab.List>
                         <Tab.Panels >
-                            {events.map((event) => (
-                                <Tab.Panel className='w-[80%] px-10 py-3 m-auto' key={event.name + ' panel'}>
-                                    <EventPanel event={event} />
-                                </Tab.Panel>
-                            ))}
+                            <Tab.Panel className='w-[80%] px-10 py-3 m-auto' key={events.march10.name + ' panel'}>
+                                <EventPanel event={events.march10}>
+                                    <p className="mt-t ">{events.march10.panel.p1}</p>
+                                    <p className="mt-2 text-center text-lg font-bold">{events.march10.panel.p2}</p>
+                                    <p className="mt-2 dark:text-white font-normal">{events.march10.panel.p3}</p>
+                                </EventPanel>
+                            </Tab.Panel>
+                            <Tab.Panel className='w-[80%] px-10 py-3 m-auto' key={events.march11.name + ' panel'}>
+                                <EventPanel event={events.march11}>
+                                    <p>{events.march11.panel.p1}</p>
+                                    <h2 className='mt-2 text-xl font-bold text-center'>{events.march11.panel.p2}</h2>
+                                    <p className='mt-2'>{events.march11.panel.p3}</p>
+                                </EventPanel>
+                            </Tab.Panel>
+                            <Tab.Panel className='w-[80%] px-10 py-3 m-auto' key={events.march12.name + ' panel'}>
+                                <EventPanel event={events.march12}>
+                                    <p>{events.march12.panel.p1}</p>
+                                    <h2 className='mt-2 text-xl font-bold text-center'>{events.march12.panel.p2}</h2>
+                                    <p className='mt-2'>{events.march12.panel.p3}</p>
+                                </EventPanel>
+                            </Tab.Panel>
                         </Tab.Panels>
             </Tab.Group>
         </div>

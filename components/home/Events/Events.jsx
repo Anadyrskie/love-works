@@ -1,4 +1,3 @@
-import { Disclosure } from '@headlessui/react'
 import AccordionEvents from './Accordion'
 
 import Tabs from "@/components/home/Events/Tabs";
@@ -17,59 +16,53 @@ export function Events() {
 export default Events
 
 
-const events = [
-    {
-        title: 'Day 1',
-        date: 'March 10th',
-        description: 'Dinner and live music out at Cowpie Mountain',
+const events = {
+    march10: {
+        title: 'March 10', date: 'March 10th', description: 'Food, music, stargazing and fun on Ajo\'s Scenic Loop. Don\'t miss it!',
         image: {
-            url: '/loveworksPoster.jpeg',
-            alt: 'Love Works Poster'
+            url: '/firesideJam.jpeg', alt: 'Love Works Poster'
         },
-        location: {name: 'Cowpie', address: 'Address 1', link: 'https://google.com'},
+        location: {
+            name: 'Cowpie', address: 'Address 1', link: '#'
+        },
         panel: {
             title: 'Day 1',
-            p1: 'A brief description of the event that will for sure be displayed on all screens.',
-            p2: 'this paragraph should be seen on all screens unless I think the whole thing is too long',
-            p3: 'make this paragraph unimportant, it may not be displayed on all screens.',
+            p1: 'Get ready for an unforgettable evening of stargazing and toe-tapping tunes! Bring your chair, your instrument, and your appetite because Organ Pipe Cactus National Monument is providing the telescopes while The Kitchen Table Band (Ajo\'s premier Hillbilly Swing band) heats up the night with live music while you eat. Afterward, settle in for a fireside jam session like you haven\'t seen since the Year of the Big Onions!',
+            p2 : 'Suggested Donation – $25',
+            p3 : 'Tickets available by donation at the Ajo Copper News, Chamber of Commerce, and the Sonoran Desert Conference Center.'
 
         }
     },
-    {
-        title: 'Day 2',
-        date: 'March 11th',
-        description: 'Live music in the historic Ajo Plaza',
-        image: {
-            url: '/loveworksPoster.jpeg',
-            alt: 'Love Works Poster'
+
+    march11: {
+        title: 'March 11', date: 'March 11th', description: 'Live music in the historic Ajo Plaza', image: {
+            url: '/loveworksPoster.jpeg', alt: 'Love Works Poster'
         },
-        location: {name: 'Ajo Plaza', address: 'Address 2', link: 'https://google.com'},
+        location: {
+            name: 'Ajo Plaza', address: 'Address 2', link: '#'
+        },
         panel: {
             title: 'Day 1',
-            p1: 'A brief description of the event that will for sure be displayed on all screens.',
-            p2: 'this paragraph should be seen on all screens unless I think the whole thing is too long',
-            p3: 'make this paragraph unimportant, it may not be displayed on all screens.',
+            p1: 'This card is still under construction.',
+            p3: "When it's done it will have a list of all the events for the day",
 
         }
     },
-    {
-        title: 'Day 3',
-        date: 'March 12th',
-        description: 'Outdoor dance at 3 Nations Market',
-        image: {
-            url: '/loveworksPoster.jpeg',
-            alt: 'Love Works Poster'
+    march12: {
+        title: 'March 12', date: 'March 12th', description: 'Outdoor dance at 3 Nations Market', image: {
+            url: '/loveworksPoster.jpeg', alt: 'Love Works Poster'
         },
-        location: {name: '3 Nations', address: 'Address 3', link: 'https://google.com'},
+        location: {
+            name: '3 Nations', address: 'Address 3', link: '#'
+        },
         panel: {
             title: 'Day 1',
-            p1: 'A brief description of the event that will for sure be displayed on all screens.',
-            p2: 'this paragraph should be seen on all screens unless I think the whole thing is too long',
-            p3: 'make this paragraph unimportant, it may not be displayed on all screens.',
+            p1: 'This card is still under construction.',
+            p3: "When it's done it will have a list of all the events for the day",
 
         }
     }
-]
+}
 
 /*
     {
