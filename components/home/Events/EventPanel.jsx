@@ -20,7 +20,7 @@ export default function EventPanel(props) {
             <div className="flex flex-col inline-flex leading-normal w-[80%] dark:text-white font-normal">
                 <h5 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white"> {event.title}</h5>
                 <div>
-                    <a href={event.location.link} className="text-l text-gray-700 dark:text-gray-300 items-center">
+                    <a href={event.location.link} target={'_blank'} className="text-l text-gray-700 dark:text-gray-300 items-center" rel="noreferrer">
                         <svg className={'fill-gray-500 dark:fill-gray-600 w-[1em] h-[1em] inline-block'} viewBox="0 0 395.71 395.71">
                             <g>
                                 <path d="M197.849,0C122.131,0,60.531,61.609,60.531,137.329c0,72.887,124.591,243.177,129.896,250.388l4.951,6.738
