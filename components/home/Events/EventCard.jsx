@@ -5,7 +5,7 @@ export function EventCard({event, open, selected}) {
         <div
             className={`flex z-10 p-4 border max-w-[320px] sm:min-h-[8em]  dark:shadow-lg ` +
                 `flex-row hover:bg-gray-100 dark:border-gray-700  dark:hover:bg-gray-700 cursor-pointer ` +
-        `${open ? 'rounded-t-lg border-b-[0px]' : 'rounded-lg shadow-md'} ${selected ? 'shadow-[0_10px_25px_7px_rgba(0,0,0,0.2)] dark:bg-gray-700' : ''}`}>
+        `${open ? 'rounded-t-lg border-b-[0px]' : 'rounded-lg shadow-md'} ${selected ? 'shadow-[0_10px_25px_7px_rgba(0,0,0,0.2)] dark:bg-gray-700' : ''} transition-all`}>
             <div className='inline-block'>
                 <Image className="rounded-[25px] shadow-md"
                        src={event.image.url}
