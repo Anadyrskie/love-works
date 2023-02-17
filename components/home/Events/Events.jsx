@@ -26,7 +26,7 @@ const events = {
             url: '/firesideJam.jpeg', alt: 'Love Works Poster'
         },
         location: {
-            name: 'Cowpie', address: 'Address 1', link: '#'
+            name: 'Cowpie', address: 'Address 1', link: 'https://goo.gl/maps/HRjdutRv9YKLGnLS6'
         },
         panel: {
             title: 'Day 1',
@@ -42,7 +42,7 @@ const events = {
             url: '/loveworksPoster.jpeg', alt: 'Love Works Poster'
         },
         location: {
-            name: 'Ajo Plaza', address: 'Address 2', link: '#'
+            name: 'Ajo Plaza', address: 'Address 2', link: 'https://goo.gl/maps/m2tdgxzUfwTLbSVDA'
         },
         panel: {
             title: 'Day 1',
@@ -56,7 +56,7 @@ const events = {
             url: '/loveworksPoster.jpeg', alt: 'Love Works Poster'
         },
         location: {
-            name: 'Ajo', address: 'Address 3', link: '#'
+            name: 'Ajo', address: 'Address 3', link: 'https://goo.gl/maps/8aycuyMiEPG341HP8'
         },
         panel: {
             title: 'Day 1',
