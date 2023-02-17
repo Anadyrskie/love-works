@@ -35,7 +35,7 @@ export default function Home() {
 //     value : 'test@anadyr.us'
 // }
 const contact = {
-    type : '',
-    prefix : '',
-    value : 'Contact info will be posted here when it is available'
+    type : 'email',
+    prefix : 'mailto:',
+    value : 'info@loveworksajo.com'
 }

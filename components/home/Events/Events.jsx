@@ -52,11 +52,11 @@ const events = {
         }
     },
     march12: {
-        title: 'March 12', date: 'March 12th', description: 'Outdoor dance at 3 Nations Market', image: {
+        title: 'March 12', date: 'March 12th', description: 'Explore what Ajo has to offer!', image: {
             url: '/loveworksPoster.jpeg', alt: 'Love Works Poster'
         },
         location: {
-            name: '3 Nations', address: 'Address 3', link: '#'
+            name: 'Ajo', address: 'Address 3', link: '#'
         },
         panel: {
             title: 'Day 1',
