@@ -1,11 +1,10 @@
 import {Disclosure, Transition} from "@headlessui/react";
 import EventCard from "./EventCard";
-import EventAccordion from "@/components/home/Events/EventAccordion";
 
-export default function Accordion({events}) {
+export default function Accordion(props) {
+    const {event} = props
     return (
         <div className='flex flex-wrap justify-center p-5 items-top mx-auto gap-5 m-auto'>
-            {Object.values(events).map((event) => (
                 <div key={event.title + ' accordion'} className='max-w-[320px]'>
                     <Disclosure >
                         {({ open }) => (
@@ -22,14 +21,17 @@ export default function Accordion({events}) {
                                     leaveTo="transform scale-95 opacity-0"
                                 >
                                     <Disclosure.Panel className=" max-w-[320px]">
-                                        <EventAccordion event={event} />
+                                        <div className='flex z-50 flex-wrap border rounded-b-lg dark:text-white border-1 border-gray-200 dark:border-gray-700 shadow-md justify-center p-5 items-top mx-auto gap-5 m-auto'>
+                                            <div className='max-w-[320px]'>
+                                                {props.children}
+                                            </div>
+                                        </div>
                                     </Disclosure.Panel>
                                 </Transition>
                             </div>
                         )}
                     </Disclosure>
                 </div>
-            ))}
         </div>
     )
 }
