@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import {Tab} from "@headlessui/react";
 
 
@@ -38,9 +37,7 @@ export default function EventPanel(props) {
 
                     {props.children}
                 </div>
-                <Link href={`/events/${event.title}/vendors`} className='right sm:max-w-[10%]'>
-                    <button name='Vendors' className="bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Vendors</button>
-                </Link>
+                {props.button}
             </div>
         </Tab.Panel>
     )

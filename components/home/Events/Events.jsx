@@ -1,10 +1,10 @@
 import Accordion from './Accordion'
 
-import Tabs from "@/components/home/Events/Tabs";
 import {events} from "@/public/events/days";
 import {Tab} from "@headlessui/react";
 import EventCard from "@/components/home/Events/EventCard";
 import EventPanel from "@/components/home/Events/EventPanel";
+import Link from "next/link";
 
 export function Events() {
     return (
@@ -48,7 +48,11 @@ export function Events() {
                             ))}
                         </Tab.List>
                         <Tab.Panels >
-                                <EventPanel key={events.march10.name + ' panel'} className='w-[80%] px-10 py-3 m-auto' event={events.march10}>
+                                <EventPanel key={events.march10.name + ' panel'} className='w-[80%] px-10 py-3 m-auto' event={events.march10}
+                                button={
+                                    <Link target={`_blank`} rel={`noreferrer`} href={events.march10.location.link} className='right sm:max-w-[10%]'>
+                                    <button name='Directions' className="bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Directions</button>
+                                    </Link>}>
                                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                                     <p>Get ready for an unforgettable evening of stargazing and toe-tapping tunes out at Cowpie Mountain! Bring your chair, your instrument, and your appetite because Organ Pipe Cactus National Monument is providing the telescopes while The Kitchen Table Band (Ajo's premier Hillbilly Swing band) heats up the night with live music while you eat. Afterward, settle in for a fireside jam session like you haven't seen since the Year of the Big Onions!</p>
                                     <h2 className='mt-2 text-xl font-bold text-center'>Suggested Donation – $25</h2>
