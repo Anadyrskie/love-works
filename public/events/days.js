@@ -8,7 +8,7 @@ export const events = {
             url: '/firesideJam.jpeg', alt: 'Love Works Poster'
         },
         location: {
-            name: 'Cowpie', address: 'Address 1', link: 'https://goo.gl/maps/HRjdutRv9YKLGnLS6'
+            name: 'Cowpie', address: 'Address 1', link: 'https://goo.gl/maps/r3Rutja53veCsP319'
         },
         panel: {
             title: 'Day 1',
