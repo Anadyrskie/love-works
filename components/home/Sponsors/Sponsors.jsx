@@ -17,7 +17,7 @@ export default function Sponsors() {
                     <a href='https://azarts.gov/' target='_blank' rel='noreferrer'>
                         <Image className='rounded' src={acaLogo} height={110} alt='Logo for the Arizona Commission on the Arts' />
                     </a>
-                    <a href='https://ajofreerange.com.gov/' target='_blank' rel='noreferrer'>
+                    <a href='https://ajofreerange.com/' target='_blank' rel='noreferrer'>
                         <Image className='rounded' src={friLogo} height={110} alt='Free Range Internet Logo' />
                     </a>
 
