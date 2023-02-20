@@ -84,7 +84,7 @@ export async function getServerSideProps() {
     let data = tsv.parseFile('./public/data/vendors.tsv')
     let pared = data.map((vendor) => {
         return {
-            number: 'TBD',
+            number: vendor['Booth #'] || 'TBD',
             name: vendor['Business name'] || vendor['Name'],
             description: vendor['Type of product'] ?? ''
         }
