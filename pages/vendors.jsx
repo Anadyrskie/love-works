@@ -31,7 +31,7 @@ export default function Vendors({data}) {
     return (
         <>
         <Navbar />
-        <div className={`mt-5`}>
+        <div className={`mt-5 flex flex-col items-center`}>
             <table className={`border-collapse border border-slate-400 dark:border-gray-400 dark:text-white`} {...getTableProps()}>
                 <thead>
                 {// Loop over the header rows
