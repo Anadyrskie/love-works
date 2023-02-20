@@ -7,23 +7,25 @@ import EventPanel from "@/components/home/Events/EventPanel";
 import Link from "next/link";
 
 export function Events() {
-    return (
-        <div className='py-3 md:pt-5 md:pb-10' id='events'>
-            <div className='lg:hidden'>
-                <Accordion event={events.march10} className={``}>
-                    <div>
-                        {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        <p>Get ready for an unforgettable evening of stargazing and toe-tapping tunes out at Cowpie Mountain! Bring your chair, your instrument, and your appetite because Organ Pipe Cactus National Monument is providing the telescopes while The Kitchen Table Band (Ajo's premier Hillbilly Swing band) heats up the night with live music while you eat. Afterward, settle in for a fireside jam session like you haven't seen since the Year of the Big Onions!</p>
-                        <h2 className='mt-2 text-xl font-bold text-center'>Suggested Donation – $25</h2>
-                        <p className='mt-2'>Tickets available by donation at the Ajo Copper News, Chamber of Commerce, and the Sonoran Desert Conference Center.</p>
-                    </div>
-                    <div className='flex flex-col items-center mt-2'>
-                        <Link target={`_blank`} rel={`noreferrer`} href={events.march10.location.link} >
-                            <button name='Directions' className="bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Directions</button>
-                        </Link>
-                    </div>
-                </Accordion>
-                <Accordion event={events.march11}>
+    let days = {
+        march10: {
+            content: (
+                <>
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
+                    <p>Get ready for an unforgettable evening of stargazing and toe-tapping tunes out at Cowpie Mountain! Bring your chair, your instrument, and your appetite because Organ Pipe Cactus National Monument is providing the telescopes while The Kitchen Table Band (Ajo's premier Hillbilly Swing band) heats up the night with live music while you eat. Afterward, settle in for a fireside jam session like you haven't seen since the Year of the Big Onions!</p>
+                    <h2 className='mt-2 text-xl font-bold text-center'>Suggested Donation – $25</h2>
+                    <p className='mt-2'>Tickets available by donation at the Ajo Copper News, Chamber of Commerce, and the Sonoran Desert Conference Center.</p>
+                </>
+            ),
+            button: (
+                <Link target={`_blank`} rel={`noreferrer`} href={events.march10.location.link} >
+                    <button name='Directions' className="bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Directions</button>
+                </Link>
+            )
+        },
+        march11: {
+            content: (
+                <>
                     <h2 className={`text-xl text-center font-bold`}>Featured Bands</h2>
                     <ul className='mt-2 px-20 list-disc'>{bands.map((band) =>{
                         return (
@@ -31,9 +33,53 @@ export function Events() {
                         )
                     })}</ul>
                     <p className='mt-2'>Check back for a schedule!</p>
+                </>
+            ),
+            button: (
+                <Link href={`/vendors`}>
+                    <button name='Vendors' className="bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Vendors</button>
+                </Link>
+            )
+        },
+        march12: {
+            content: (
+                <>
+                    <p>{events.march12.panel.p1}</p>
+                    <h2 className='mt-2 text-xl font-bold text-center'>{events.march12.panel.p2}</h2>
+                    <p className='mt-2'>{events.march12.panel.p3}</p>
+                </>
+            ),
+            button: (<> </>)
+        }
+    }
+
+
+    return (
+        <div className='py-3 md:pt-5 md:pb-10' id='events'>
+            <div className='lg:hidden'>
+                <Accordion event={events.march10} className={``}>
+                    <div>
+                        {days.march10.content}
+                    </div>
+                    <div className='flex flex-col items-center mt-2'>
+                        {days.march10.button}
+                    </div>
+                </Accordion>
+                <Accordion event={events.march11}>
+                    <div>
+                        {days.march11.content}
+                    </div>
+                    <div className='flex flex-col items-center mt-2'>
+                        {days.march11.button}
+                    </div>
                 </Accordion>
                 <Accordion event={events.march12}>
-                    <p>Check back for more information.</p>
+                    <div>
+                        {days.march12.content}
+                    </div>
+                    <div className='flex flex-col items-center mt-2'>
+                        {days.march12.button}
+                    </div>
                 </Accordion>
 
             </div>
@@ -55,29 +101,14 @@ export function Events() {
                             ))}
                         </Tab.List>
                         <Tab.Panels >
-                                <EventPanel key={events.march10.name + ' panel'} className='w-[80%] px-10 py-3 m-auto' event={events.march10}
-                                button={
-                                    <Link target={`_blank`} rel={`noreferrer`} href={events.march10.location.link} className='right sm:max-w-[10%]'>
-                                    <button name='Directions' className="bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Directions</button>
-                                    </Link>}>
-                                    {/* eslint-disable-next-line react/no-unescaped-entities */}
-                                    <p>Get ready for an unforgettable evening of stargazing and toe-tapping tunes out at Cowpie Mountain! Bring your chair, your instrument, and your appetite because Organ Pipe Cactus National Monument is providing the telescopes while The Kitchen Table Band (Ajo's premier Hillbilly Swing band) heats up the night with live music while you eat. Afterward, settle in for a fireside jam session like you haven't seen since the Year of the Big Onions!</p>
-                                    <h2 className='mt-2 text-xl font-bold text-center'>Suggested Donation – $25</h2>
-                                    <p className='mt-2'>Tickets available by donation at the Ajo Copper News, Chamber of Commerce, and the Sonoran Desert Conference Center.</p>
+                                <EventPanel key={events.march10.name + ' panel'} className='w-[80%] px-10 py-3 m-auto' event={events.march10} button={days.march10.button}>
+                                    {days.march10.content}
                                 </EventPanel>
-                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={events.march11.name + ' panel'} event={events.march11}>
-                                    <h2 className={`text-xl text-center font-bold`}>Featured Bands</h2>
-                                    <ul className='mt-2 px-20 list-disc'>{bands.map((band) =>{
-                                        return (
-                                            <li key={band}>{band}</li>
-                                        )
-                                    })}</ul>
-                                    <p className='mt-2'>Check back for a schedule!</p>
+                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={events.march11.name + ' panel'} event={events.march11} button={days.march11.button}>
+                                    {days.march11.content}
                                 </EventPanel>
-                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={events.march12.name + ' panel'} event={events.march12}>
-                                    <p>{events.march12.panel.p1}</p>
-                                    <h2 className='mt-2 text-xl font-bold text-center'>{events.march12.panel.p2}</h2>
-                                    <p className='mt-2'>{events.march12.panel.p3}</p>
+                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={events.march12.name + ' panel'} event={events.march12} button={days.march12.button}>
+                                    {days.march12.content}
                                 </EventPanel>
                         </Tab.Panels>
                     </Tab.Group>
