@@ -23,7 +23,7 @@ export default function Home() {
     <div>
         <Hero  />
         <Events />
-        <Sponsors />
+        {/*<Sponsors />*/}
         <Contact contact={contact}/>
     </div>
     </>
