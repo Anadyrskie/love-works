@@ -16,6 +16,10 @@ export default function Vendors({data}) {
             {
                 Header: 'Description',
                 accessor: 'description',
+            },
+            {
+                Header: 'Demo',
+                accessor: 'demo',
             }
         ],
         []
@@ -86,7 +90,8 @@ export async function getServerSideProps() {
         return {
             number: 'TBD',
             name: vendor['Business name'] || vendor['Name'],
-            description: vendor['Type of product'] ?? ''
+            description: vendor['Type of product'] ?? '',
+            demo: vendor['Demo'] ?? ''
         }
     })
     return {
