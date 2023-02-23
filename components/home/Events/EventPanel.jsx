@@ -18,10 +18,10 @@ export default function EventPanel(props) {
                     />
                 </div>
 
-                <div className="flex flex-col inline-flex leading-normal w-[80%] dark:text-white font-normal">
+                <div className="flex inline-flex flex-col font-normal leading-normal w-[80%] dark:text-white">
                     <h5 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white"> {event.title}</h5>
                     <div>
-                        <a href={event.location.link} target={'_blank'} className="text-l text-gray-700 dark:text-gray-300 items-center" rel="noreferrer">
+                        <a href={event.location.link} target={'_blank'} className="items-center text-gray-700 text-l dark:text-gray-300" rel="noreferrer">
                             <svg className={'fill-gray-500 dark:fill-gray-600 w-[1em] h-[1em] inline-block'} viewBox="0 0 395.71 395.71">
                                 <g>
                                     <path d="M197.849,0C122.131,0,60.531,61.609,60.531,137.329c0,72.887,124.591,243.177,129.896,250.388l4.951,6.738
@@ -30,7 +30,7 @@ export default function EventPanel(props) {
 		c-27.114,0-49.191-22.076-49.191-49.191C148.658,110.2,170.734,88.138,197.849,88.138z"/>
                                 </g>
                             </svg>
-                            <p className="inline-block ml-1">{event.location.name}</p>
+                            <p className="ml-1 inline-block">{event.location.name}</p>
                         </a>
                     </div>
                     {event.time ? <h6 className={`text-sm tracking-tight text-gray-700 dark:text-gray-300`}> {event.time}</h6> : ''}

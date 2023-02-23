@@ -4,7 +4,7 @@ import EventCard from "./EventCard";
 export default function Accordion(props) {
     const {event} = props
     return (
-        <div className='flex flex-wrap justify-center p-5 items-top mx-auto gap-5 m-auto'>
+        <div className='m-auto mx-auto flex flex-wrap justify-center gap-5 p-5 items-top'>
                 <div key={event.title + ' accordion'} className='max-w-[320px]'>
                     <Disclosure >
                         {({ open }) => (
@@ -20,8 +20,8 @@ export default function Accordion(props) {
                                     leaveFrom="transform scale-100 opacity-100"
                                     leaveTo="transform scale-95 opacity-0"
                                 >
-                                    <Disclosure.Panel className=" max-w-[320px]">
-                                        <div className='flex z-50 flex-wrap border rounded-b-lg dark:text-white border-1 border-gray-200 dark:border-gray-700 shadow-md justify-center p-5 items-top mx-auto gap-5 m-auto'>
+                                    <Disclosure.Panel className="max-w-[320px]">
+                                        <div className='z-50 m-auto mx-auto flex flex-wrap justify-center gap-5 rounded-b-lg border border-gray-200 p-5 shadow-md border-1 items-top dark:border-gray-700 dark:text-white'>
                                             <div className='max-w-[320px]'>
                                                 {props.children}
                                             </div>

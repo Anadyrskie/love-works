@@ -4,9 +4,9 @@ import EventPanel from "@/components/home/Events/EventPanel";
 
 export default function Tabs({events}) {
     return (
-        <div className='bg-white dark:bg-gray-800 mx-auto m-auto'>
+        <div className='m-auto mx-auto bg-white dark:bg-gray-800'>
             <Tab.Group>
-                <Tab.List className="bg-white justify-center flex dark:bg-gray-800 columns-3 p-5">
+                <Tab.List className="flex columns-3 justify-center bg-white p-5 dark:bg-gray-800">
 
                 {Object.values(events).map((event) => (
                                 <Tab
@@ -21,24 +21,24 @@ export default function Tabs({events}) {
                         ))}
                 </Tab.List>
                         <Tab.Panels >
-                            <Tab.Panel className='w-[80%] px-10 py-3 m-auto' key={events.march10.name + ' panel'}>
+                            <Tab.Panel className='m-auto px-10 py-3 w-[80%]' key={events.march10.name + ' panel'}>
                                 <EventPanel event={events.march10}>
-                                    <p className="mt-t ">{events.march10.panel.p1}</p>
+                                    <p className="mt-t">{events.march10.panel.p1}</p>
                                     <p className="mt-2 text-center text-lg font-bold">{events.march10.panel.p2}</p>
-                                    <p className="mt-2 dark:text-white font-normal">{events.march10.panel.p3}</p>
+                                    <p className="mt-2 font-normal dark:text-white">{events.march10.panel.p3}</p>
                                 </EventPanel>
                             </Tab.Panel>
-                            <Tab.Panel className='w-[80%] px-10 py-3 m-auto' key={events.march11.name + ' panel'}>
+                            <Tab.Panel className='m-auto px-10 py-3 w-[80%]' key={events.march11.name + ' panel'}>
                                 <EventPanel event={events.march11}>
                                     <p>{events.march11.panel.p1}</p>
-                                    <h2 className='mt-2 text-xl font-bold text-center'>{events.march11.panel.p2}</h2>
+                                    <h2 className='mt-2 text-center text-xl font-bold'>{events.march11.panel.p2}</h2>
                                     <p className='mt-2'>{events.march11.panel.p3}</p>
                                 </EventPanel>
                             </Tab.Panel>
-                            <Tab.Panel className='w-[80%] px-10 py-3 m-auto' key={events.march12.name + ' panel'}>
+                            <Tab.Panel className='m-auto px-10 py-3 w-[80%]' key={events.march12.name + ' panel'}>
                                 <EventPanel event={events.march12}>
                                     <p>{events.march12.panel.p1}</p>
-                                    <h2 className='mt-2 text-xl font-bold text-center'>{events.march12.panel.p2}</h2>
+                                    <h2 className='mt-2 text-center text-xl font-bold'>{events.march12.panel.p2}</h2>
                                     <p className='mt-2'>{events.march12.panel.p3}</p>
                                 </EventPanel>
                             </Tab.Panel>
@@ -52,7 +52,7 @@ export default function Tabs({events}) {
 /*
     <div className="w-full max-w-md px-2 py-16 sm:px-0">
       <Tab.Group>
-        <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-1">
+        <Tab.List className="flex rounded-xl bg-blue-900/20 p-1 space-x-1">
           {Object.keys(categories).map((category) => (
             <Tab
               key={category}
@@ -89,7 +89,7 @@ export default function Tabs({events}) {
                       {post.title}
                     </h3>
 
-                    <ul className="mt-1 flex space-x-1 text-xs font-normal leading-4 text-gray-500">
+                    <ul className="mt-1 flex text-xs font-normal leading-4 text-gray-500 space-x-1">
                       <li>{post.date}</li>
                       <li>&middot;</li>
                       <li>{post.commentCount} comments</li>

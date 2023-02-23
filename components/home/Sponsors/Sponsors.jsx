@@ -7,7 +7,7 @@ export default function Sponsors() {
     return (
         <div className='flex flex-col items-center px-10'>
             <div className='flex flex-col items-center'>
-                <h1 className='text-3xl font-bold text-center'>Sponsors</h1>
+                <h1 className='text-center text-3xl font-bold'>Sponsors</h1>
                 <p className='text-center'>We are grateful for the support of our sponsors. If you are interested in sponsoring, please contact us at <a className='text-blue-500' href='mailto:sponsor@loveworksajo.com'>sponsor@loveoworksajo.com</a>
                 </p>
                 <span className={`flex flex-inline space-x-5 my-5`}>

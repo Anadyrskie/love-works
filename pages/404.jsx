@@ -7,7 +7,7 @@ export default function Custom404() {
             <div className='dark:shadow-lg'>
                 <Navbar />
             </div>
-            <div className='text-center p-10'>
+            <div className='p-10 text-center'>
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 <h1 className='text-2xl'>Sorry, this page doesn't exist yet!</h1>
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
