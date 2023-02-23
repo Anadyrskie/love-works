@@ -31,7 +31,7 @@ export default function Vendors({data}) {
     return (
         <>
         <Navbar />
-        <div className={`mt-5 flex flex-col items-center`}>
+        <div className={`mt-5`}>
             <table className={`border-collapse border border-slate-400 dark:border-gray-400 dark:text-white`} {...getTableProps()}>
                 <thead>
                 {// Loop over the header rows
@@ -84,7 +84,7 @@ export async function getServerSideProps() {
     let data = tsv.parseFile('./public/data/vendors.tsv')
     let pared = data.map((vendor) => {
         return {
-            number: vendor['Booth #'] || 'TBD',
+            number: 'TBD',
             name: vendor['Business name'] || vendor['Name'],
             description: vendor['Type of product'] ?? ''
         }

@@ -13,13 +13,13 @@ export function Events() {
                 <>
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                     <p>Get ready for an unforgettable evening of stargazing and toe-tapping tunes out at Cowpie Mountain! Bring your chair, your instrument, and your appetite because Organ Pipe Cactus National Monument is providing the telescopes while The Kitchen Table Band (Ajo's premier Hillbilly Swing band) heats up the night with live music while you eat. Afterward, settle in for a fireside jam session like you haven't seen since the Year of the Big Onions!</p>
-                    <h2 className='mt-2 text-center text-xl font-bold'>Suggested Donation – $25</h2>
+                    <h2 className='mt-2 text-xl font-bold text-center'>Suggested Donation – $25</h2>
                     <p className='mt-2'>Tickets available by donation at the Ajo Copper News, Chamber of Commerce, and the Sonoran Desert Conference Center.</p>
                 </>
             ),
             button: (
                 <Link target={`_blank`} rel={`noreferrer`} href={events.march10.location.link} >
-                    <button name='Directions' className="mt-2 rounded-lg bg-blue-500 px-4 py-2 text-white shadow-gray-600 drop-shadow-lg hover:bg-blue-400 dark:bg-gray-700 dark:outline-1 dark:outline-gray-200 dark:hover:bg-gray-600">Directions</button>
+                    <button name='Directions' className="bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Directions</button>
                 </Link>
             )
         },
@@ -27,7 +27,7 @@ export function Events() {
             content: (
                 <>
                     <h2 className={`text-xl text-center font-bold`}>Featured Bands</h2>
-                    <ul className='mt-2 list-disc px-20'>{bands.map((band) =>{
+                    <ul className='mt-2 px-20 list-disc'>{bands.map((band) =>{
                         return (
                             <li key={band}>{band}</li>
                         )
@@ -37,7 +37,7 @@ export function Events() {
             ),
             button: (
                 <Link href={`/vendors`}>
-                    <button name='Vendors' className="mt-2 rounded-lg bg-blue-500 px-4 py-2 text-white shadow-gray-600 drop-shadow-lg hover:bg-blue-400 dark:bg-gray-700 dark:outline-1 dark:outline-gray-200 dark:hover:bg-gray-600">Vendors</button>
+                    <button name='Vendors' className="bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Vendors</button>
                 </Link>
             )
         },
@@ -45,7 +45,7 @@ export function Events() {
             content: (
                 <>
                     <p>{events.march12.panel.p1}</p>
-                    <h2 className='mt-2 text-center text-xl font-bold'>{events.march12.panel.p2}</h2>
+                    <h2 className='mt-2 text-xl font-bold text-center'>{events.march12.panel.p2}</h2>
                     <p className='mt-2'>{events.march12.panel.p3}</p>
                 </>
             ),
@@ -61,7 +61,7 @@ export function Events() {
                     <div>
                         {days.march10.content}
                     </div>
-                    <div className='mt-2 flex flex-col items-center'>
+                    <div className='flex flex-col items-center mt-2'>
                         {days.march10.button}
                     </div>
                 </Accordion>
@@ -69,7 +69,7 @@ export function Events() {
                     <div>
                         {days.march11.content}
                     </div>
-                    <div className='mt-2 flex flex-col items-center'>
+                    <div className='flex flex-col items-center mt-2'>
                         {days.march11.button}
                     </div>
                 </Accordion>
@@ -77,16 +77,16 @@ export function Events() {
                     <div>
                         {days.march12.content}
                     </div>
-                    <div className='mt-2 flex flex-col items-center'>
+                    <div className='flex flex-col items-center mt-2'>
                         {days.march12.button}
                     </div>
                 </Accordion>
 
             </div>
             <div className='max-lg:hidden w-full'>
-                <div className='m-auto mx-auto bg-white dark:bg-gray-800'>
+                <div className='bg-white dark:bg-gray-800 mx-auto m-auto'>
                     <Tab.Group>
-                        <Tab.List className="flex columns-3 justify-center bg-white p-5 dark:bg-gray-800">
+                        <Tab.List className="bg-white justify-center flex dark:bg-gray-800 columns-3 p-5">
 
                             {Object.values(events).map((event) => (
                                 <Tab
@@ -101,13 +101,13 @@ export function Events() {
                             ))}
                         </Tab.List>
                         <Tab.Panels >
-                                <EventPanel key={events.march10.name + ' panel'} className='m-auto px-10 py-3 w-[80%]' event={events.march10} button={days.march10.button}>
+                                <EventPanel key={events.march10.name + ' panel'} className='w-[80%] px-10 py-3 m-auto' event={events.march10} button={days.march10.button}>
                                     {days.march10.content}
                                 </EventPanel>
-                                <EventPanel className='m-auto px-10 py-3 w-[80%]' key={events.march11.name + ' panel'} event={events.march11} button={days.march11.button}>
+                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={events.march11.name + ' panel'} event={events.march11} button={days.march11.button}>
                                     {days.march11.content}
                                 </EventPanel>
-                                <EventPanel className='m-auto px-10 py-3 w-[80%]' key={events.march12.name + ' panel'} event={events.march12} button={days.march12.button}>
+                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={events.march12.name + ' panel'} event={events.march12} button={days.march12.button}>
                                     {days.march12.content}
                                 </EventPanel>
                         </Tab.Panels>

@@ -7,14 +7,14 @@ export function EventCard({event, open, selected}) {
                 `flex-row hover:bg-gray-100 dark:border-gray-700  dark:hover:bg-gray-700 cursor-pointer ` +
         `${open ? 'rounded-t-lg border-b-[0px]' : 'rounded-lg shadow-md'} ${selected ? 'shadow-[0_10px_25px_7px_rgba(0,0,0,0.2)] dark:bg-gray-700' : ''} transition-all`}>
             <div className='inline-block'>
-                <Image className="shadow-md rounded-[25px]"
+                <Image className="rounded-[25px] shadow-md"
                        src={event.image.url}
                        alt={event.image.alt}
                        width={100}
                        height={100}
                 />
             </div>
-            <div className="ml-4 flex inline-flex flex-col leading-normal w-[80%]">
+            <div className="flex flex-col inline-flex ml-4 w-[80%] leading-normal">
                 <h3 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white"> {event.title}</h3>
                 <div>
                     <span className={`text-gray-700 dark:text-gray-400 ${selected ? 'dark:text-gray-300' : ''} items-center`}>
@@ -26,11 +26,11 @@ export function EventCard({event, open, selected}) {
 		c-27.114,0-49.191-22.076-49.191-49.191C148.658,110.2,170.734,88.138,197.849,88.138z"/>
                             </g>
                         </svg>
-                        <p className="ml-1 inline-block">{event.location.name}</p>
+                        <p className="inline-block ml-1">{event.location.name}</p>
                     </span>
                     {event.time ? <h6 className={`text-sm tracking-tight text-gray-700 dark:text-gray-400 ${selected ? 'dark:text-gray-300' : ''}`}> {event.time}</h6> : ''}
                 </div>
-                <p className="mt-1 font-normal text-gray-900 dark:text-white">{event.description}</p>
+                <p className="mt-1  text-gray-900  dark:text-white font-normal">{event.description}</p>
             </div>
         </div>
     )

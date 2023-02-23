@@ -5,8 +5,7 @@ import {Navbar} from '@/components/Navbar'
 import {Hero} from '@/components/home/Hero'
 // @ts-ignore
 import Contact from '@/components/home/Contact/Contact.jsx'
-// @ts-ignore
-import Sponsors from '@/components/home/Sponsors/Sponsors'
+
 // @ts-ignore
 import {Events} from '@/components/home/Events/Events'
 
@@ -23,7 +22,6 @@ export default function Home() {
     <div>
         <Hero  />
         <Events />
-        {/*<Sponsors />*/}
         <Contact contact={contact}/>
     </div>
     </>
