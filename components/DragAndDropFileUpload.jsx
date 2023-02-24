@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import readXlsxFile from 'read-excel-file';
 
 const DragAndDropFileUpload = () => {
     const [isDragging, setIsDragging] = useState(false);
@@ -37,7 +38,11 @@ const DragAndDropFileUpload = () => {
         e.preventDefault();
         if (file) {
             const formData = new FormData();
-            const fileData = new Blob([file], { type: file.type });
+            let fileData = file;
+            if (file.type === 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet') {
+                const rows = await readXlsxFile(file);
+                fileData = new Blob([rows.map(row => row.join('\t')).join('\n')], { type: 'text/tab-separated-values' });
+            }
             formData.append('vendors', fileData, 'vendors.tsv');
             try {
                 const response = await fetch('/api/upload', {
