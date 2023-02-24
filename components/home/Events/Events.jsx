@@ -121,7 +121,7 @@ export default Events
 
 const bands = [
     "Gertie N the T.O. Boyz Waila Band",
-    "Zaniel and the T.O. Nation",
+    "Zaniel and the T.O. Natives",
     "Desert Glass",
     "Dialectic Flowers",
     "Peace Restored",
