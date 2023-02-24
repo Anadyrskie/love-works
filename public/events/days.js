@@ -14,7 +14,7 @@ export const events = {
             title: 'Day 1',
             p1: 'Get ready for an unforgettable evening of stargazing and toe-tapping tunes out at Cowpie Mountain! Bring your chair, your instrument, and your appetite because Organ Pipe Cactus National Monument is providing the telescopes while The Kitchen Table Band (Ajo\'s premier Hillbilly Swing band) heats up the night with live music while you eat. Afterward, settle in for a fireside jam session like you haven\'t seen since the Year of the Big Onions!',
             p2: 'Suggested Donation – $25',
-            p3: 'Tickets available by donation at the Ajo Copper News, Chamber of Commerce, and the Sonoran Desert Conference Center.'
+            p3: 'Tickets available by donation at the Ajo Copper News, and the Chamber of Commerce.'
 
         }
     },
