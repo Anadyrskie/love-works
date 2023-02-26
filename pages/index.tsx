@@ -22,7 +22,7 @@ export default function Home() {
     <div>
         <Hero  />
         <Events />
-        <Contact contact={contact}/>
+        <Contact/>
     </div>
     </>
   )
@@ -34,8 +34,3 @@ export default function Home() {
 //     prefix : 'mailto:',
 //     value : 'test@anadyr.us'
 // }
-const contact = {
-    type : 'email',
-    prefix : 'mailto:',
-    value : 'info@loveworksajo.com'
-}
