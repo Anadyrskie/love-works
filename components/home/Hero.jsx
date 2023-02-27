@@ -20,11 +20,11 @@ export function Hero() {
                     }}
                 />
             </div>
-            <div className="relative max-w-7xl pt-5 md:pt-20 mx-auto pb-24 px-4 sm:px-6 lg:px-8">
-                <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-                    <span className="block">Love Works!</span>
-                   <span> <span className="inline-block text-indigo-400">Night </span> and <span className="inline-block text-orange-300">Day</span><br />Ajo Desert Festival</span>
-                    <span className='block mt-7 sm:mt-3 text-[100px]'>2023</span>
+            <div className="relative bg-gradient-to-b from-black w-full pt-5 md:pt-20 mx-auto pb-24 px-4 sm:px-6 lg:px-8">
+                <h1 className="text-4xl font-extrabold text-shadow-md tracking-tight text-white sm:text-5xl lg:text-6xl">
+                    <span className='block text-7xl sm:text-8xl md:text-[100px] lg:text-[110px]'>Love Works</span>
+                    <span>Ajo Desert Festival</span>
+                    <span className="block">March 10, 11, 12</span>
                 </h1>
             </div>
         </div>

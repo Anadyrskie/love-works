@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Love Works!</title>
+        <title>Love Works Desert Festival</title>
         <meta name="description" content="Website for Ajo's Love Works festival" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/loveworksPoster.jpeg" />
