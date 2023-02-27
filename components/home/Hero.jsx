@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import splash from '../../public/loveworksSplash.jpeg'
+import splash from '../../public/loveWorksTest.jpg'
 
 
 export function Hero() {
     // hero image with a text overlay
     return (
-        <div className="relative bg-gray-900 overflow-clip h-screen">
+        <div className="relative overflow-clip h-screen">
             <div className="absolute inset-0 ">
                 <Image
                     className="object-cover"
@@ -14,7 +14,7 @@ export function Hero() {
                     placeholder="blur"
                     quality={100}
                     fill
-                    sizes="100vw"
+                    sizes="100vw, 100vh"
                     style={{
                         objectFit: 'cover',
                     }}
