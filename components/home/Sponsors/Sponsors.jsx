@@ -20,7 +20,7 @@ export default function Sponsors() {
                     <div className={`justify-center items-center`}>
                         <a href='https://ajoartists.wordpress.com/ajo-council-for-the-fine-arts-acfa-2/' target='_blank'
                            rel='noreferrer'>
-                        <Image className='rounded' src={ACFAlogo} height={110} alt='ACFA Logo'/>
+                        <Image className='rounded' src={ACFAlogo} height={110} alt='Ajo Council for the Fine Arts Logo'/>
                             <span className={`text-xs m-1`}>
                                 <p className={``}>
                                 Sponsored in part by: the DeGrazia Art and Cultural Foundation Fund
@@ -36,12 +36,12 @@ export default function Sponsors() {
                     </a>
                     </div>
                     <div className={`flex flex-inline flex-wrap gap-x-5 gap-y-5 m-auto items-center justify-center`}>
-                                          <a href='https://southwestalliance.org/' target='_blank' rel='noreferrer'>
+                                          <a href='https://southwestfolklife.org/' target='_blank' rel='noreferrer'>
                         <Image className='rounded' src={southwestLogo} height={110}
-                               alt='Southwest Alliance for Arts and Culture Logo'/>
+                               alt='Southwest Folklife Alliance Logo'/>
                     </a>
                         <a href='https://cfsaz.org/' target='_blank' rel='noreferrer'>
-                        <Image className='rounded' src={cfsaLogo} height={110} alt='CFS Logo'/>
+                        <Image className='rounded' src={cfsaLogo} height={110} alt='Community Foundation for Southern Arizona Logo'/>
                     </a>
 
                     <a href='https://azarts.gov/' target='_blank' rel='noreferrer'>
@@ -53,7 +53,7 @@ export default function Sponsors() {
                         <Image className='rounded' src={friLogo} height={110} alt='Free Range Internet Logo'/>
                     </a>
                     <a href='https://www.isdanet.org/' target='_blank' rel='noreferrer'>
-                        <Image className='rounded' src={ISDAlogo} height={110} alt='ISDA Logo'/>
+                        <Image className='rounded' src={ISDAlogo} height={110} alt='International Sonoran Desert Alliance Logo'/>
                     </a>
                     </div>
                 </span>
