@@ -10,13 +10,13 @@ import southwestLogo from "../../../public/sponsors/southwestAlliance.png"
 
 export default function Sponsors() {
     return (
-        <div className='m-5 flex flex-col items-center justify-center md:mx-10'>
+        <div className='m-5 flex flex-col items-center justify-center md:mx-10 m-auto'>
             <h1 className='text-center text-3xl font-bold'>Sponsors</h1>
             <p className='text-center'>We are grateful for the support of our sponsors. If you are interested in
                 sponsoring, please contact us at <a className='text-blue-500'
                                                     href='mailto:sponsor@loveworksajo.com'>sponsor@loveoworksajo.com</a>
             </p>
-            <span className={`space-y-5 space-x-5`}>
+            <span className={`space-y-5 space-x-5 items-center justify-center flex flex-col`}>
                     <div className={`justify-center items-center`}>
                         <a href='https://ajoartists.wordpress.com/ajo-council-for-the-fine-arts-acfa-2/' target='_blank'
                            rel='noreferrer'>
@@ -35,7 +35,7 @@ export default function Sponsors() {
                                alt='Freeport McMoRan Logo'/>
                     </a>
                     </div>
-                    <div className={`flex flex-inline flex-wrap gap-x-5 gap-y-5 m-auto items-center justify-center`}>
+                    <div className={`flex flex-inline flex-wrap gap-x-5 gap-y-5 m-auto items-center justify-center lg:max-w-[80%]`}>
                                           <a href='https://southwestfolklife.org/' target='_blank' rel='noreferrer'>
                         <Image className='rounded' src={southwestLogo} height={110}
                                alt='Southwest Folklife Alliance Logo'/>
