@@ -9,11 +9,11 @@ import ISDAlogo from "../../../public/sponsors/ISDA-logo.png"
 
 export default function Sponsors() {
     return (
-            <div className='flex flex-col items-center'>
+            <div className='flex flex-col m-5 md:mx-10 items-center justify-center'>
                 <h1 className='text-center text-3xl font-bold'>Sponsors</h1>
                 <p className='text-center'>We are grateful for the support of our sponsors. If you are interested in sponsoring, please contact us at <a className='text-blue-500' href='mailto:sponsor@loveworksajo.com'>sponsor@loveoworksajo.com</a>
                 </p>
-                <span className={`space-y-5 space-x-5 my-5`}>
+                <span className={`space-y-5 space-x-5`}>
                     <div className={`justify-center items-center`}>
                         <a href='https://ajoartists.wordpress.com/ajo-council-for-the-fine-arts-acfa-2/' target='_blank' rel='noreferrer'>
                         <Image className='rounded' src={ACFAlogo} height={110} alt='ACFA Logo' />
