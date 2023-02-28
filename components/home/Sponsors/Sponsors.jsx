@@ -9,19 +9,19 @@ import ISDAlogo from "../../../public/sponsors/ISDA-logo.png"
 
 export default function Sponsors() {
     return (
-        <div className='flex flex-col items-center px-10'>
             <div className='flex flex-col items-center'>
                 <h1 className='text-center text-3xl font-bold'>Sponsors</h1>
                 <p className='text-center'>We are grateful for the support of our sponsors. If you are interested in sponsoring, please contact us at <a className='text-blue-500' href='mailto:sponsor@loveworksajo.com'>sponsor@loveoworksajo.com</a>
                 </p>
-                <span className={`flex flex-inline flex-wrap space-y-5 space-x-5 my-5`}>
-                    <a href='https://ajoartists.wordpress.com/ajo-council-for-the-fine-arts-acfa-2/' target='_blank' rel='noreferrer'>
+                <span className={`space-y-5 space-x-5 my-5`}>
+                    <div className={`justify-center items-center`}>
+                        <a href='https://ajoartists.wordpress.com/ajo-council-for-the-fine-arts-acfa-2/' target='_blank' rel='noreferrer'>
                         <Image className='rounded' src={ACFAlogo} height={110} alt='ACFA Logo' />
-                            <span className={`text-xs mt-1 inline-block`}>
-                                <p className={`inline-block`}>
-                                Sponsored in part by the: DeGrazia Art and Cultural Foundation Fund
+                            <span className={`text-xs m-1`}>
+                                <p className={``}>
+                                Sponsored in part by: the DeGrazia Art and Cultural Foundation Fund
                                     {/* eslint-disable-next-line react/no-unescaped-entities */}
-                                Endowment for the Arts of Tucson Fund and Viola Steinfeld O'Neil Fund
+                                    Endowment for the Arts of Tucson Fund and Viola Steinfeld O'Neil Fund
                                 CFSA combined unrestricted Fund
                             </p>
                         </span>
@@ -29,7 +29,9 @@ export default function Sponsors() {
                     <a href='https://fcx.com/' target='_blank' rel='noreferrer'>
                         <Image className='rounded max-h-50px' src={freeportLogo} height={110} alt='Freeport McMoRan Logo' />
                     </a>
-                    <a href='https://cfsaz.org/' target='_blank' rel='noreferrer'>
+                    </div>
+                    <div className={`flex flex-inline flex-wrap gap-x-5 gap-y-5 m-auto items-center justify-center`}>
+                        <a href='https://cfsaz.org/' target='_blank' rel='noreferrer'>
                         <Image className='rounded' src={cfsaLogo} height={110} alt='CFS Logo' />
                     </a>
                     <a href='https://azarts.gov/' target='_blank' rel='noreferrer'>
@@ -41,8 +43,8 @@ export default function Sponsors() {
                     <a href='https://www.isdanet.org/' target='_blank' rel='noreferrer'>
                         <Image className='rounded' src={ISDAlogo} height={110} alt='ISDA Logo' />
                     </a>
+                    </div>
                 </span>
             </div>
-        </div>
     )
 }
