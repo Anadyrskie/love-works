@@ -23,10 +23,8 @@ export default function Sponsors() {
                         <Image className='rounded' src={ACFAlogo} height={110} alt='Ajo Council for the Fine Arts Logo'/>
                             <span className={`text-xs m-1`}>
                                 <p className={``}>
-                                Sponsored in part by: the DeGrazia Art and Cultural Foundation Fund
                                     {/* eslint-disable-next-line react/no-unescaped-entities */}
-                                    Endowment for the Arts of Tucson Fund and Viola Steinfeld O'Neil Fund
-                                CFSA combined unrestricted Fund
+                                Sponsored in part by: the DeGrazia Art and Cultural Foundation Fund Endowment for the Arts of Tucson Fund and Viola Steinfeld O'Neil Fund CFSA combined unrestricted Fund
                             </p>
                         </span>
                     </a>
