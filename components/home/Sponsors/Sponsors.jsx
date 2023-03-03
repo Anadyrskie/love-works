@@ -9,8 +9,7 @@ import ISDAlogo from "../../../public/sponsors/ISDA-logo.png"
 import southwestLogo from "../../../public/sponsors/southwestAlliance.png"
 
 export default function Sponsors() {
-    return (
-        <div className='m-5 flex flex-col items-center justify-center md:mx-10 m-auto'>
+    return (<div className='m-5 flex flex-col items-center justify-center md:mx-10 m-auto'>
             <h1 className='text-center text-3xl font-bold'>Sponsors</h1>
             <p className='text-center'>We are grateful for the support of our sponsors. If you are interested in
                 sponsoring, please contact us at <a className='text-blue-500'
@@ -20,7 +19,8 @@ export default function Sponsors() {
                     <div className={`justify-center items-center`}>
                         <a href='https://ajoartists.wordpress.com/ajo-council-for-the-fine-arts-acfa-2/' target='_blank'
                            rel='noreferrer'>
-                        <Image className='rounded' src={ACFAlogo} height={110} alt='Ajo Council for the Fine Arts Logo'/>
+                        <Image className='rounded' src={ACFAlogo} height={110}
+                               alt='Ajo Council for the Fine Arts Logo'/>
                             <span className={`text-xs m-1`}>
                                 <p className={``}>
                                     {/* eslint-disable-next-line react/no-unescaped-entities */}
@@ -33,13 +33,15 @@ export default function Sponsors() {
                                alt='Freeport McMoRan Logo'/>
                     </a>
                     </div>
-                    <div className={`flex flex-inline flex-wrap gap-x-5 gap-y-5 m-auto items-center justify-center lg:max-w-[80%]`}>
+                    <div
+                        className={`flex flex-inline flex-wrap gap-x-5 gap-y-5 m-auto items-center justify-center lg:max-w-[80%]`}>
                                           <a href='https://southwestfolklife.org/' target='_blank' rel='noreferrer'>
                         <Image className='rounded' src={southwestLogo} height={110}
                                alt='Southwest Folklife Alliance Logo'/>
                     </a>
                         <a href='https://cfsaz.org/' target='_blank' rel='noreferrer'>
-                        <Image className='rounded' src={cfsaLogo} height={110} alt='Community Foundation for Southern Arizona Logo'/>
+                        <Image className='rounded' src={cfsaLogo} height={110}
+                               alt='Community Foundation for Southern Arizona Logo'/>
                     </a>
 
                     <a href='https://azarts.gov/' target='_blank' rel='noreferrer'>
@@ -51,10 +53,10 @@ export default function Sponsors() {
                         <Image className='rounded' src={friLogo} height={110} alt='Free Range Internet Logo'/>
                     </a>
                     <a href='https://www.isdanet.org/' target='_blank' rel='noreferrer'>
-                        <Image className='rounded' src={ISDAlogo} height={110} alt='International Sonoran Desert Alliance Logo'/>
+                        <Image className='rounded' src={ISDAlogo} height={110}
+                               alt='International Sonoran Desert Alliance Logo'/>
                     </a>
                     </div>
                 </span>
-        </div>
-    )
+        </div>)
 }
