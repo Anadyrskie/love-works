@@ -9,6 +9,7 @@ export const Navbar = () => {
         {name: 'Events', href: '/#events'},
         {name: 'Maps', href: '/maps'},
         {name: 'Contact', href: '/#contact'},
+        {name: 'About', href: '/about'}
     ]
 
 
