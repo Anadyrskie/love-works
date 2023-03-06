@@ -55,7 +55,7 @@ export function Events() {
 
 
     return (
-        <div className='py-3 md:pt-5 md:pb-10' id='events'>
+        <div className='py-3 md:pt-5 md:pb-10 flex flex-col items-center justify-center' id='events'>
             <div className='lg:hidden'>
                 <Accordion event={events.march10} className={``}>
                     <div>
@@ -114,6 +114,10 @@ export function Events() {
                     </Tab.Group>
                 </div>
             </div>
+            <Link className={`pt-5`} href={`/schedule`}>
+                <button name='Full Schedule' className="bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Full Schedule</button>
+            </Link>
+
         </div>
         )
 }
