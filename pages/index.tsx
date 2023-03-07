@@ -1,4 +1,3 @@
-import Head from 'next/head'
 // @ts-ignore
 import {Navbar} from '@/components/Navbar'
 // @ts-ignore
@@ -14,12 +13,6 @@ import {Events} from '@/components/home/Events/Events'
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Love Works Desert Festival</title>
-        <meta name="description" content="Website for Ajo's Love Works festival" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/loveworksPoster.jpeg" />
-      </Head>
       <Navbar />
     <div>
         <Hero  />
