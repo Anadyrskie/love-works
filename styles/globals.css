@@ -4,6 +4,9 @@
 
 @layer utilities {
     @variants responsive {
+        .text-shadow-sm {
+            text-shadow: 2px 2px 6px #292929;
+        }
         .text-shadow {
             text-shadow: 02px 2px 8px black;
         }
