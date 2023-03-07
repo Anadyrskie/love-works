@@ -20,6 +20,7 @@ export const events = {
     },
 
     march11: {
+        time: '9AM - ??',
         title: 'March 11', date: 'March 11th', description: 'Live music in the historic Ajo Plaza', image: {
             url: '/loveworksPoster.jpeg', alt: 'Love Works Poster'
         },
@@ -34,6 +35,7 @@ export const events = {
         }
     },
     march12: {
+        time: 'All day',
         title: 'March 12', date: 'March 12th', description: 'Explore what Ajo has to offer!', image: {
             url: '/AMountain.png', alt: 'Love Works Poster'
         },

@@ -1,6 +1,5 @@
 import Accordion from './Accordion'
 
-import {events} from "@/public/events/days";
 import {Tab} from "@headlessui/react";
 import EventCard from "@/components/home/Events/EventCard";
 import EventPanel from "@/components/home/Events/EventPanel";
@@ -9,6 +8,17 @@ import Link from "next/link";
 export function Events() {
     let days = {
         march10: {
+            title: 'March 10',
+            date: 'March 10th',
+            time: '5:30-9:00 PM',
+            description: 'Food, music, stargazing and fun on Ajo\'s Scenic Loop. Don\'t miss it!',
+            image: {
+                url: '/firesideJam.jpeg', alt: 'Love Works Poster'
+            },
+            location: {
+                                                    /* the link is defined both here and in the button */
+                name: 'Cowpie', address: 'Address 1', link: 'https://goo.gl/maps/r3Rutja53veCsP319'
+            },
             content: (
                 <>
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
@@ -18,12 +28,20 @@ export function Events() {
                 </>
             ),
             button: (
-                <Link target={`_blank`} rel={`noreferrer`} href={events.march10.location.link} >
+
+                <Link target={`_blank`} rel={`noreferrer`} href={`https://goo.gl/maps/r3Rutja53veCsP319`} >
                     <button name='Directions' className="bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Directions</button>
                 </Link>
             )
         },
         march11: {
+            time: '9AM - ??',
+            title: 'March 11', date: 'March 11th', description: 'Live music in the historic Ajo Plaza', image: {
+                url: '/loveworksPoster.jpeg', alt: 'Love Works Poster'
+            },
+            location: {
+                name: 'Ajo Plaza', address: 'Address 2', link: 'https://goo.gl/maps/m2tdgxzUfwTLbSVDA'
+            },
             content: (
                 <>
                     <h2 className={`text-xl text-center font-bold`}>Featured Bands</h2>
@@ -42,6 +60,13 @@ export function Events() {
             )
         },
         march12: {
+            time: 'All day',
+            title: 'March 12', date: 'March 12th', description: 'Explore what Ajo has to offer!', image: {
+                url: '/AMountain.png', alt: 'Love Works Poster'
+            },
+            location: {
+                name: 'Ajo', address: 'Address 3', link: 'https://goo.gl/maps/8aycuyMiEPG341HP8'
+            },
             content: (
                 <>
                     <br />
@@ -58,7 +83,7 @@ export function Events() {
     return (
         <div className='py-3 md:pt-5 md:pb-10 flex flex-col items-center justify-center' id='events'>
             <div className='lg:hidden'>
-                <Accordion event={events.march10} className={``}>
+                <Accordion event={days.march10} className={``}>
                     <div>
                         {days.march10.content}
                     </div>
@@ -66,7 +91,7 @@ export function Events() {
                         {days.march10.button}
                     </div>
                 </Accordion>
-                <Accordion event={events.march11}>
+                <Accordion event={days.march11}>
                     <div>
                         {days.march11.content}
                     </div>
@@ -74,7 +99,7 @@ export function Events() {
                         {days.march11.button}
                     </div>
                 </Accordion>
-                <Accordion event={events.march12}>
+                <Accordion event={days.march12}>
                     <div>
                         {days.march12.content}
                     </div>
@@ -89,7 +114,7 @@ export function Events() {
                     <Tab.Group>
                         <Tab.List className="bg-white justify-center flex dark:bg-gray-800 columns-3 p-5">
 
-                            {Object.values(events).map((event) => (
+                            {Object.values(days).map((event) => (
                                 <Tab
                                     key={event.title + ' tab'}
                                     as="div"
@@ -102,13 +127,13 @@ export function Events() {
                             ))}
                         </Tab.List>
                         <Tab.Panels >
-                                <EventPanel key={events.march10.name + ' panel'} className='w-[80%] px-10 py-3 m-auto' event={events.march10} button={days.march10.button}>
+                                <EventPanel key={days.march10.name + ' panel'} className='w-[80%] px-10 py-3 m-auto' event={days.march10} button={days.march10.button}>
                                     {days.march10.content}
                                 </EventPanel>
-                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={events.march11.name + ' panel'} event={events.march11} button={days.march11.button}>
+                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={days.march11.name + ' panel'} event={days.march11} button={days.march11.button}>
                                     {days.march11.content}
                                 </EventPanel>
-                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={events.march12.name + ' panel'} event={events.march12} button={days.march12.button}>
+                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={days.march12.name + ' panel'} event={days.march12} button={days.march12.button}>
                                     {days.march12.content}
                                 </EventPanel>
                         </Tab.Panels>
