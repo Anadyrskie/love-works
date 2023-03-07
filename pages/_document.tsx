@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import {Navbar} from "@/components/Navbar";
 
 export default function Document() {
   return (
@@ -19,6 +20,7 @@ export default function Document() {
 
         </Head>
       <body className='dark:bg-gray-800 bg-white dark:text-white'>
+      <Navbar />
         <Main />
         <NextScript />
       </body>

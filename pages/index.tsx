@@ -13,7 +13,6 @@ import {Events} from '@/components/home/Events/Events'
 export default function Home() {
   return (
     <>
-      <Navbar />
     <div>
         <Hero  />
         <Events />
