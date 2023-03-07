@@ -226,6 +226,16 @@ export default function Schedule() {
                         <td>10-2</td>
                         <td>MOST AJO STORES AND GALLERIES WILL BE OPEN</td>
                     </tr>
+
+                    <tr>
+                        <td>10-2</td>
+                        <td><Link href={'https://goo.gl/maps/p2uszUtkWebbbgxr5'} target={'_blank'} rel={'noreferrer'}>ART UNDER THE ARCHES GALLERY</Link></td>
+                    </tr>
+                    <tr>
+                        <td>10-2</td>
+                        <td>COPPER NEWS GALLERY<br />
+                            @ <Link href={'https://goo.gl/maps/LX7yMFrVwvddJq5v5'} target={'_blank'} rel={'noreferrer'}>Ajo Copper News</Link></td>
+                    </tr>
                     <tr>
                         <td>10-2</td>
                         <td>SONORAN DESERT WINDS STUDIO OPEN HOUSE - PAPER MAKING<br />
