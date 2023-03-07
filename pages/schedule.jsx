@@ -34,6 +34,9 @@ export default function Schedule() {
                 <hr />
                 <div id={`march11`}>
                     <h2>Saturday, March 11</h2>
+                    <Link href={`/vendors`}>
+                        <button name='Vendors' className="text-shadow-sm bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Vendors</button>
+                    </Link>
                     <h2>AJO PLAZA</h2>
                     <table>
                         <thead>
@@ -45,7 +48,7 @@ export default function Schedule() {
                         <tbody>
                         <tr>
                             <td>9-10</td>
-                            <td>Opening Event: Dialactic Flowers Music/ Bonzai studio yoga on the plaza lawn. Free and open to
+                            <td>Opening Event: Dialactic Flowers Music / Bonzai studio yoga on the plaza lawn. Free and open to
                                 the public
                             </td>
                         </tr>
