@@ -36,7 +36,7 @@ export function Events() {
         },
         march11: {
             time: '9AM - ??',
-            title: 'March 11', date: 'March 11th', description: 'Live music in the historic Ajo Plaza', image: {
+            title: 'March 11', date: 'March 11th', description: 'Live music, art, food, and fun in the historic Ajo Plaza', image: {
                 url: '/loveworksPoster.jpeg', alt: 'Love Works Poster'
             },
             location: {
@@ -66,7 +66,7 @@ export function Events() {
         },
         march12: {
             time: 'All day',
-            title: 'March 12', date: 'March 12th', description: 'Explore what Ajo has to offer!', image: {
+            title: 'March 12', date: 'March 12th', description: `Explore what makes Ajo special: its unique culture and community!`, image: {
                 url: '/AMountain.png', alt: 'Love Works Poster'
             },
             location: {
