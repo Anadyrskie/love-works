@@ -69,29 +69,45 @@ export default function Schedule() {
                     <td>12-4</td>
                     <td>Beer/Wine Garden <strong>CASH ONLY!!!</strong><br />Benefits Ajo Volunteer Fire Department</td>
                 </tr>
+                </tbody>
+            </table>
+
+            <h3 className={`text-center`}>Stage Lineup</h3>
+
+            <table>
+                <thead>
                 <tr>
-                    <td rowSpan="8">10-6</td>
-                    <td>Bands and Entertainment</td>
+                    <th>Time</th>
+                    <th>Event</th>
                 </tr>
+                </thead>
+                <tbody>
                 <tr>
+                    <td>10:00</td>
                     <td>PEACE RESTORED</td>
                 </tr>
                 <tr>
+                    <td>11:00</td>
                     <td>PRIMINITION</td>
                 </tr>
                 <tr>
+                    <td>12:00</td>
                     <td>BALLET FOLKLORICO</td>
                 </tr>
                 <tr>
+                    <td>12:30</td>
                     <td>FLY BY NIGHT</td>
                 </tr>
                 <tr>
+                    <td>1:00</td>
                     <td>ZANIEL AND T.O. NATIVES</td>
                 </tr>
                 <tr>
+                    <td>2:00</td>
                     <td>BETH AND TERRY</td>
                 </tr>
                 <tr>
+                    <td>3:00</td>
                     <td>KITCHEN TABLE BAND</td>
                 </tr>
                 <tr>
