@@ -21,7 +21,7 @@ export default function Accordion(props) {
                                     leaveTo="transform scale-95 opacity-0"
                                 >
                                     <Disclosure.Panel className=" max-w-[320px]">
-                                        <div className='flex z-50 flex-wrap border rounded-b-lg dark:text-white border-1 border-gray-200 dark:border-gray-700 shadow-md justify-center p-5 items-top mx-auto gap-5 m-auto'>
+                                        <div className='flex z-50 prose dark:prose-invert flex-wrap border rounded-b-lg dark:text-white border-1 border-gray-200 dark:border-gray-700 shadow-md justify-center p-5 items-top mx-auto gap-5 m-auto'>
                                             <div className='max-w-[320px]'>
                                                 {props.children}
                                             </div>

@@ -34,8 +34,10 @@ export default function EventPanel(props) {
                         </a>
                     </div>
                     {event.time ? <h6 className={`text-sm tracking-tight text-gray-700 dark:text-gray-300`}> {event.time}</h6> : ''}
+                    <div className={`prose pt-3 dark:prose-invert`}>
+                        {props.children}
+                    </div>
 
-                    {props.children}
                 </div>
                 {props.button}
             </div>
