@@ -30,7 +30,7 @@ export function Events() {
             button: (
 
                 <Link target={`_blank`} rel={`noreferrer`} href={`https://goo.gl/maps/r3Rutja53veCsP319`} >
-                    <button name='Directions' className="bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Directions</button>
+                    <button name='Directions' className="text-shadow-sm bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Directions</button>
                 </Link>
             )
         },
@@ -44,18 +44,23 @@ export function Events() {
             },
             content: (
                 <>
-                    <h2 className={`text-xl text-center font-bold`}>Featured Bands</h2>
-                    <ul className='mt-2 px-20 list-disc'>{bands.map((band) =>{
-                        return (
-                            <li key={band}>{band}</li>
-                        )
-                    })}</ul>
-                    <p className='mt-2'>Check back for a schedule!</p>
+                    <p>
+                        Join us for a day of music, art, food, and fun at Ajo Plaza on Saturday, March 11th. This tri-cultural event celebrates the rich cultural heritage of the Ajo community and features a variety of activities for all ages.
+                        <br />
+                        Enjoy headlining performances by Gerty and the TO Boyz, as well as other talented artists, including Ballet Folklórico, Peace Restored, Priminition, Fly By Night, Zaniel and the T.O. Natives, Beth and Terry, and the Kitchen Table Band.
+                        <br />
+                        Check out the artisan booths and Native American vendors selling handcrafted items. Sample delicious food from local favorites Nina's Kitchen, Ajo Pie, Jody Proscia, Ajo Sno, Bunny LaGrand, and enjoy drinks from the beer and wine garden, which benefits the Ajo Volunteer Fire Department.
+                        <br />
+                        Be sure to explore the powerful and thought-provoking <Link href={'https://www.tomkiefer.com/el-sueno-americano'} target={'_blank'} rel={'noreferrer'}>El Sueño Americano</Link> photo exhibit, which sheds light on the experiences of migrants and those seeking asylum at the US/Mexico border.
+                        <br />
+                        Don't miss out on the fun! Bring your family, friends, and a chair, and spend the day experiencing the best of Ajo's culture and community.
+                    </p>
+                    <Link href={`/schedule#march11`}></Link>
                 </>
             ),
             button: (
-                <Link href={`/vendors`}>
-                    <button name='Vendors' className="bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Vendors</button>
+                <Link href={`/schedule#march11`}>
+                    <button name='Schedule' className="text-shadow-sm bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Schedule</button>
                 </Link>
             )
         },
@@ -69,13 +74,16 @@ export function Events() {
             },
             content: (
                 <>
-                    <br />
                     <p>
-                        Join us for a day of exploration and fun in Ajo! Start your day off right with Mimi's weekly Sunday Community Breakfast, featuring music by Beth and Terry. Afterwards, check out the fruit tree propagation workshop with Jesus Garcia or join the Orpi Rangers for some birding at Quitoboquito. There will also be plenty of opportunities to explore local stores and galleries, as well as a history walk with Bill Perry. Finish off the day with a crystal bowl healing session at Bonzai Studio. Don't miss out on this exciting day in Ajo!
+                        Get ready for a day of exploration and fun in Ajo! Start your day off right with Mimi's weekly Sunday Community Breakfast, featuring music by Beth and Terry. Afterwards, check out the fruit tree propagation workshop with Jesus Garcia or join the Orpi Rangers for some birding at Quitoboquito. There will also be plenty of opportunities to explore local stores and galleries, as well as a history walk with Bill Perry. Finish off the day with a crystal bowl healing session at Bonzai Studio. Don't miss out on this exciting day in Ajo!
                     </p>
                 </>
             ),
-            button: (<> </>)
+            button: (
+                <Link href={`/schedule#march12`}>
+                    <button name='Schedule' className="text-shadow-sm bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Schedule</button>
+                </Link>
+            )
         }
     }
 
@@ -148,30 +156,3 @@ export function Events() {
         )
 }
 export default Events
-
-const bands = [
-    "Gertie N the T.O. Boyz Waila Band",
-    "Zaniel and the T.O. Natives",
-    "Desert Glass",
-    "Dialectic Flowers",
-    "Peace Restored",
-    "Priminition",
-    "Folklorica",
-    "Beth and Terry",
-    "Fly By Night",
-    "KTB",
-    "Tony's Martini Club"
-]
-
-/*
-    {
-        title: '',
-        date: '',
-        description: '',
-        image: {
-            url: '',
-            alt: ''
-        },
-        location: {name: '', address: '', link: ''},
-    },
- */
