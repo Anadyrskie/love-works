@@ -63,7 +63,7 @@ export default function Schedule() {
                         </tr>
                         <tr>
                             <td>9-4</td>
-                            <td>El Sue&#241;o Americano exhibit/gallery</td>
+                            <td><Link href={'https://www.tomkiefer.com/el-sueno-americano'} target={'_blank'} rel={'noreferrer'}>El Sueño Americano</Link> exhibit/gallery</td>
                         </tr>
                         <tr>
                             <td rowSpan="2">9-6</td>
