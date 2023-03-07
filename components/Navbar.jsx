@@ -7,7 +7,7 @@ export const Navbar = () => {
     const links = [
         {name: 'Home', href: '/'},
         {name: 'Events', href: '/#events'},
-        {name: 'Maps', href: '/maps'},
+        {name: 'Schedule', href: '/schedule'},
         {name: 'Contact', href: '/#contact'},
         {name: 'About', href: '/about'}
     ]
