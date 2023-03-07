@@ -135,13 +135,13 @@ export function Events() {
                             ))}
                         </Tab.List>
                         <Tab.Panels >
-                                <EventPanel key={days.march10.name + ' panel'} className='w-[80%] px-10 py-3 m-auto' event={days.march10} button={days.march10.button}>
+                                <EventPanel key={days.march10.title + ' panel'} className='w-[80%] px-10 py-3 m-auto' event={days.march10} button={days.march10.button}>
                                     {days.march10.content}
                                 </EventPanel>
-                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={days.march11.name + ' panel'} event={days.march11} button={days.march11.button}>
+                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={days.march11.title + ' panel'} event={days.march11} button={days.march11.button}>
                                     {days.march11.content}
                                 </EventPanel>
-                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={days.march12.name + ' panel'} event={days.march12} button={days.march12.button}>
+                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={days.march12.title + ' panel'} event={days.march12} button={days.march12.button}>
                                     {days.march12.content}
                                 </EventPanel>
                         </Tab.Panels>
