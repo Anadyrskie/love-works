@@ -141,7 +141,7 @@ export default function Schedule() {
                         <td>CLAY STUDIO, WOOD SHOP, WEAVING STUDIO OPEN!</td>
                     </tr>
                     <tr>
-                        <td>6:00</td>
+                        <td>4:00</td>
                         <td>OPEN MIC with BOBBY NARCHO.....YOUR CHANCE TO PERFORM!!!</td>
                     </tr>
                     <tr>
@@ -162,11 +162,11 @@ export default function Schedule() {
                     <tbody>
                     <tr>
                         <td>6:00</td>
-                        <td>DESERT GLASS<br />FLAM CHEN STILTWALKERS</td>
+                        <td>ZANIEL AND T.O. NATIVES</td>
                     </tr>
                     <tr>
                         <td>7:00</td>
-                        <td>ZANIEL AND T.O. NATIVES</td>
+                        <td>DESERT GLASS<br />FLAM CHEN STILTWALKERS</td>
                     </tr>
                     <tr>
                         <td>8:00</td>
