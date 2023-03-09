@@ -68,7 +68,8 @@ export default function Schedule() {
                             <td>Art, Artisan Vendors and are demonstrations and Peace Train rides for the kids</td>
                         </tr>
                         <tr>
-                            <td>Food Vendors<br />Nina's Kitchen (Rich and Ashley)<br />Ajo Pie<br />Jody Proscia<br />Ajo Sno<br />Bunny
+
+                            <td>Food Vendors<br /><Link href={`https://www.facebook.com/ourtacofamily/`} rel={'noreferrer'} target={'_blank'}>Nina's Taqueria (Rich and Ashley)</Link> <br /><Link href={'https://www.ajopie.com/'} target={'_blank'} rel={'noreferrer'}>Ajo Pie</Link> <br /><Link href={'https://www.facebook.com/JodysDelectables'} target={'_blank'} rel={'noreferrer'}>Jody Proscia</Link><br />Ajo Sno<br />Bunny
                                 LaGrand</td>
                         </tr>
                         <tr>
