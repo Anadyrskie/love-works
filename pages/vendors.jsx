@@ -33,8 +33,8 @@ export default function Vendors({data}) {
     } = tableInstance
     return (
         <>
-        <div className={`mt-5`}>
-            <table className={`border-collapse border border-slate-400 dark:border-gray-400 dark:text-white`} {...getTableProps()}>
+        <div style={{width: "max-content"}} className={`my-10 shadow-md dark:shadow-lg m-auto`}>
+            <table className={`border-collapse border border-slate-400 dark:border-gray-400 dark:text rounded`} {...getTableProps()}>
                 <thead>
                 {// Loop over the header rows
                     headerGroups.map(headerGroup => (
