@@ -64,7 +64,7 @@ export default function Schedule() {
                             <td><Link href={'https://www.tomkiefer.com/el-sueno-americano'} target={'_blank'} rel={'noreferrer'}>El Sueño Americano</Link> exhibit/gallery</td>
                         </tr>
                         <tr>
-                            <td rowSpan="2">9-6</td>
+                            <td>9-6</td>
                             <td>Art, Artisan Vendors, demonstrations and Peace Train rides for the kids <br />
                                 <h3 className={'m-0 mb-[-20px]'}>Food Vendors</h3><br />
                                 <Link href={`https://www.facebook.com/ourtacofamily/`} rel={'noreferrer'} target={'_blank'}>Nina's Taqueria (Rich and Ashley)</Link> <br />
