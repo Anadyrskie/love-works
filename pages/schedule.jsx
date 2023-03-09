@@ -65,12 +65,14 @@ export default function Schedule() {
                         </tr>
                         <tr>
                             <td rowSpan="2">9-6</td>
-                            <td>Art, Artisan Vendors and are demonstrations and Peace Train rides for the kids</td>
-                        </tr>
-                        <tr>
-
-                            <td>Food Vendors<br /><Link href={`https://www.facebook.com/ourtacofamily/`} rel={'noreferrer'} target={'_blank'}>Nina's Taqueria (Rich and Ashley)</Link> <br /><Link href={'https://www.ajopie.com/'} target={'_blank'} rel={'noreferrer'}>Ajo Pie</Link> <br /><Link href={'https://www.facebook.com/JodysDelectables'} target={'_blank'} rel={'noreferrer'}>Jody Proscia</Link><br />Ajo Sno<br />Bunny
-                                LaGrand</td>
+                            <td>Art, Artisan Vendors, demonstrations and Peace Train rides for the kids <br />
+                                <h3 className={'m-0 mb-[-20px]'}>Food Vendors</h3><br />
+                                <Link href={`https://www.facebook.com/ourtacofamily/`} rel={'noreferrer'} target={'_blank'}>Nina's Taqueria (Rich and Ashley)</Link> <br />
+                                <Link href={'https://www.ajopie.com/'} target={'_blank'} rel={'noreferrer'}>Ajo Pie</Link> <br />
+                                <Link href={'https://www.facebook.com/JodysDelectables'} target={'_blank'} rel={'noreferrer'}>Jody Proscia</Link><br />
+                                Ajo Sno<br />
+                                Bunny LaGrand
+                            </td>
                         </tr>
                         <tr>
                             <td>12-4</td>
