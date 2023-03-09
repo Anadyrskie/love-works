@@ -51,7 +51,7 @@ export default function Schedule() {
                             </td>
                         </tr>
                         <tr>
-                            <td>9-2</td>
+                            <td>9-12:30</td>
                             <td>Organ Pipe Cactus National Monument Solarscope<br />Pima County Health Department Covid Vaccines
                             </td>
                         </tr>
@@ -113,7 +113,7 @@ export default function Schedule() {
                     </tr>
                     <tr>
                         <td>2:00</td>
-                        <td>BETH AND TERRY</td>
+                        <td>JACK AND TERRY</td>
                     </tr>
                     <tr>
                         <td>3:00</td>
@@ -196,7 +196,7 @@ export default function Schedule() {
                     </tr>
                     <tr>
                         <td>9-10</td>
-                        <td>MIMI’S WEEKLY SUNDAY COMMUNITY BREAKFAST<br />$10/plate FEATURING MUSIC BY BETH AND TERRY<br />
+                        <td>MIMI’S WEEKLY SUNDAY COMMUNITY BREAKFAST<br />$10/plate FEATURING MUSIC BY JACK AND TERRY<br />
                             @ <Link href={'https://goo.gl/maps/GGHRZapZFCz9amdu5'} target={'_blank'} rel={'noreferrer'}>SONORAN DESERT INN AND CONFERENCE CENTER</Link></td>
                     </tr>
                     <tr>

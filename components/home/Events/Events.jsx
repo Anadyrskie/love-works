@@ -47,7 +47,7 @@ export function Events() {
                     <p>
                         Join us for a day of music, art, food, and fun at Ajo Plaza on Saturday, March 11th. This tri-cultural event celebrates the rich cultural heritage of the Ajo community and features a variety of activities for all ages.
                         <br />
-                        Enjoy headlining performances by Gerty and the TO Boyz, as well as other talented artists, including Ballet Folklórico, Peace Restored, Priminition, Fly By Night, Zaniel and the T.O. Natives, Beth and Terry, and the Kitchen Table Band.
+                        Enjoy headlining performances by Gerty and the TO Boyz, as well as other talented artists, including Ballet Folklórico, Peace Restored, Priminition, Fly By Night, Zaniel and the T.O. Natives, Jack and Terry, and the Kitchen Table Band.
                         <br />
                         Check out the artisan booths and Native American vendors selling handcrafted items. Sample delicious food from local favorites Nina's Kitchen, Ajo Pie, Jody Proscia, Ajo Sno, Bunny LaGrand, and enjoy drinks from the beer and wine garden, which benefits the Ajo Volunteer Fire Department.
                         <br />
@@ -75,7 +75,7 @@ export function Events() {
             content: (
                 <>
                     <p>
-                        Get ready for a day of exploration and fun in Ajo! Start your day off right with Mimi's weekly Sunday Community Breakfast, featuring music by Beth and Terry. Afterwards, check out the fruit tree propagation workshop with Jesus Garcia or join the Orpi Rangers for some birding at Quitoboquito. There will also be plenty of opportunities to explore local stores and galleries, as well as a history walk with Bill Perry. Finish off the day with a crystal bowl healing session at Bonzai Studio. Don't miss out on this exciting day in Ajo!
+                        Get ready for a day of exploration and fun in Ajo! Start your day off right with Mimi's weekly Sunday Community Breakfast, featuring music by Jack and Terry. Afterwards, check out the fruit tree propagation workshop with Jesus Garcia or join the Orpi Rangers for some birding at Quitoboquito. There will also be plenty of opportunities to explore local stores and galleries, as well as a history walk with Bill Perry. Finish off the day with a crystal bowl healing session at Bonzai Studio. Don't miss out on this exciting day in Ajo!
                     </p>
                 </>
             ),
