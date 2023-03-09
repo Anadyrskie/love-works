@@ -4,10 +4,10 @@ import {useTable} from "react-table";
 export default function Vendors({data}) {
     const columns = React.useMemo(
         () => [
-            {
-                Header: 'Booth #',
-                accessor: 'number', // accessor is the "key" in the data
-            },
+            // {
+            //     Header: 'Booth #',
+            //     accessor: 'number', // accessor is the "key" in the data
+            // },
             {
                 Header: 'Name',
                 accessor: 'name',
