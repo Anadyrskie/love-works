@@ -8,6 +8,8 @@ import Contact from '@/components/home/Contact/Contact.jsx'
 import Sponsors from '@/components/home/Sponsors/Sponsors'
 // @ts-ignore
 import {Events} from '@/components/home/Events/Events'
+// @ts-ignore
+import Thanks from '@/components/Thanks'
 
 
 export default function Home() {
@@ -15,6 +17,9 @@ export default function Home() {
     <>
     <div>
         <Hero  />
+        <Thanks />
+        <br />
+        <h1 className="text-center text-4xl font-bold">2023 Schedule</h1>
         <Events />
         <Contact />
         <Sponsors />
