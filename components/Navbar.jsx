@@ -1,5 +1,4 @@
 import Link from "next/link";
-// import { useUser } from "../context/user";
 import {useState} from "react";
 
 export const Navbar = () => {
@@ -21,7 +20,6 @@ export const Navbar = () => {
                         <Link className="" href="/">
                             <h2 className="text-2xl dark:text-white font-bold">Love Works!</h2>
                         </Link>
-
                         <div className="md:hidden">
                             <button name='expand navbar'
                                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"

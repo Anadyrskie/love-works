@@ -1,7 +1,9 @@
+import {Navbar} from "../components/Navbar";
 
 export default function About() {
     return (
         <>
+            <Navbar />
             <div className='p-10 flex flex-col items-center dark:prose-invert prose-lg max-w-[1200px] lg:prose-xl m-auto'>
                 <h1 className={`text-center font-bold`}>The Origin of Love Works</h1>
                 <p>Every Sunday, for some years, Mimi Phillips has been cooking brunch at the Sonoran Desert Inn for our town. These weekly events bring Ajo tourists and locals together around communal tables. Returning annually, winter “snowbirds”—those who have second homes here, and those who are just in Ajo for the season—also enjoy homestyle cooking while engaging in conversation and camaraderie. Amazing connections and memories are borne of attending this event.</p>

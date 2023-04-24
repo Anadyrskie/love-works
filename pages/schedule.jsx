@@ -1,8 +1,10 @@
 import Link from "next/link";
+import {Navbar} from "../components/Navbar";
 
 export default function Schedule() {
     return (
         <>
+            <Navbar />
             <div className={`lg:mx-auto m-10 prose prose-lg dark:prose-invert prose-slate`}>
                 <h1>Festival Schedule</h1>
                 <div id={`march10`}>
