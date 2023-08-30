@@ -10,6 +10,7 @@ import Sponsors from '@/components/home/Sponsors/Sponsors'
 import {Events} from '@/components/home/Events/Events'
 // @ts-ignore
 import Thanks from '@/components/Thanks'
+import Update from "@/components/Update";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
     <div>
         <Navbar />
         <Hero  />
+        <Update />
         <Thanks />
         <br />
         <h1 className="text-center text-4xl font-bold">2023 Schedule</h1>
