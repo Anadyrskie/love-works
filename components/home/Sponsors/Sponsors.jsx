@@ -11,7 +11,7 @@ import southwestLogo from "../../../public/sponsors/southwestAlliance.png"
 export default function Sponsors() {
     return (<div className='m-5 flex flex-col items-center justify-center md:mx-10 m-auto'>
             <h1 className='text-center text-3xl font-bold'>Sponsors</h1>
-            <p className='text-center'>We are grateful for the support of our sponsors. If you are interested in
+            <p className='text-center pb-2'>We are grateful for the support of our sponsors. If you are interested in
                 sponsoring, please contact us at <a className='text-blue-500'
                                                     href='mailto:sponsor@loveworksajo.com'>sponsor@loveoworksajo.com</a>
             </p>
@@ -28,21 +28,9 @@ export default function Sponsors() {
                             </p>
                         </span>
                     </a>
-                    <a href='https://fcx.com/' target='_blank' rel='noreferrer'>
-                        <Image className='rounded max-h-50px' src={freeportLogo} height={110}
-                               alt='Freeport McMoRan Logo'/>
-                    </a>
                     </div>
                     <div
                         className={`flex flex-inline flex-wrap gap-x-5 gap-y-5 m-auto items-center justify-center lg:max-w-[80%]`}>
-                                          <a href='https://southwestfolklife.org/' target='_blank' rel='noreferrer'>
-                        <Image className='rounded' src={southwestLogo} height={110}
-                               alt='Southwest Folklife Alliance Logo'/>
-                    </a>
-                        <a href='https://cfsaz.org/' target='_blank' rel='noreferrer'>
-                        <Image className='rounded' src={cfsaLogo} height={110}
-                               alt='Community Foundation for Southern Arizona Logo'/>
-                    </a>
 
                     <a href='https://azarts.gov/' target='_blank' rel='noreferrer'>
                         <Image className='rounded' src={acaLogo} height={110}
