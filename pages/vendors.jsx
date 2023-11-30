@@ -1,6 +1,7 @@
 import tsv from '../lib/tsvParse';
 import React from "react";
 import {useTable} from "react-table";
+import {Navbar} from "../components/Navbar";
 export default function Vendors({data}) {
     const columns = React.useMemo(
         () => [
@@ -33,7 +34,8 @@ export default function Vendors({data}) {
     } = tableInstance
     return (
         <>
-        <div style={{width: "max-content"}} className={`my-10 shadow-md dark:shadow-lg m-auto`}>
+            <Navbar />
+            <div style={{width: "max-content"}} className={`my-10 shadow-md dark:shadow-lg m-auto`}>
             <table className={`border-collapse border border-slate-400 dark:border-gray-400 dark:text rounded`} {...getTableProps()}>
                 <thead>
                 {// Loop over the header rows
