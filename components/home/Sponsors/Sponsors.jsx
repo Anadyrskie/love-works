@@ -9,7 +9,7 @@ import ISDAlogo from "../../../public/sponsors/ISDA-logo.png"
 import southwestLogo from "../../../public/sponsors/southwestAlliance.png"
 
 export default function Sponsors() {
-    return (<div className='m-5 flex flex-col items-center justify-center md:mx-10 m-auto'>
+    return (<div id='sponsors' className='flex flex-col items-center justify-center md:mx-10 m-auto'>
             <h1 className='text-center text-3xl font-bold'>Sponsors</h1>
             <p className='text-center pb-2'>We are grateful for the support of our sponsors. If you are interested in
                 sponsoring, please contact us at <a className='text-blue-500'
