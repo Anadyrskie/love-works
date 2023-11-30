@@ -5,8 +5,8 @@ export const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
     const links = [
         {name: 'Home', href: '/'},
-        {name: 'Events', href: '/#events'},
-        {name: 'Schedule', href: '/schedule'},
+        // {name: 'Events', href: '/#events'},
+        // {name: 'Schedule', href: '/schedule'},
         {name: 'Contact', href: '/#contact'},
         {name: 'About', href: '/about'}
     ]

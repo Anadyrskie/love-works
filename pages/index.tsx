@@ -22,8 +22,8 @@ export default function Home() {
         <Update />
         <Thanks />
         <br />
-        <h1 className="text-center text-4xl font-bold">2023 Schedule</h1>
-        <Events />
+        {/*<h1 className="text-center text-4xl font-bold">2023 Schedule</h1>*/}
+        {/*<Events />*/}
         <Contact />
         <Sponsors />
     </div>
