@@ -9,7 +9,7 @@ export const Navbar = () => {
         // {name: 'Schedule', href: '/schedule'},
         {name: 'Contact', href: '/#contact'},
         {name: 'About', href: '/about'},
-        {name: 'Sponsrs', href: '/#sponsors'},
+        {name: 'Sponsors', href: '/#sponsors'},
     ]
 
 
