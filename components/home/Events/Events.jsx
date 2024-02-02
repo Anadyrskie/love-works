@@ -22,15 +22,91 @@ export function Events() {
             content: (
                 <>
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
-                    <p>Get ready for an unforgettable evening of stargazing and toe-tapping tunes out at Cowpie Mountain! Bring your chair, your instrument, and your appetite because Organ Pipe Cactus National Monument is providing the telescopes while The Kitchen Table Band (Ajo's premier Hillbilly Swing band) heats up the night with live music while you eat. Afterward, settle in for a fireside jam session like you haven't seen since the Year of the Big Onions!</p>
-                    <h2 className='mt-2 text-xl font-bold text-center'>Suggested Donation – $25</h2>
-                    <p className='mt-2'>Tickets available by donation at the Ajo Copper News and Chamber of Commerce.</p>
+                    <p className='text-black dark:text-white text-2xl mb-0'>Join us for dinner in the desert at the Cowpie!</p>
+                    <p className='text-lg text-black dark:text-white mt-0'>
+                        Enjoy live music, stargazing, and a bonfire jam session!
+                        This is our third year offering this exciting event!
+                    </p>
+                    <h4 className='text-center mt-1 md:mt-0 text-xl md:text-lg'>
+                        – BRING A CHAIR! –
+                   </h4>
+                    <div className='leading-6'>
+                        <div className="space-y-4">
+                            <div className="flex items-start">
+                                <div className="font-bold text-lg">4:00</div>
+                                <div className="ml-4 leading-6">
+                                    Come on out and enjoy the gorgeous backdrop of the
+                                    Sonoran Desert as we welcome our musical guests:
+                                    <div className='flex flex-col text leading-7 text-lg'>
+                                        <span>1. The Kitchen Table Band</span>
+                                        <span>2. Rock N Roll Zombies</span>
+                                        <span className='pl-2 text-base'>and our headline act</span>
+                                        <span>3. Southern Country Band</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="flex items-start">
+                                <div className="font-bold text-lg">5:00</div>
+                                <div className="ml-4 leading-6">
+                                    <p>Dinner provided by the
+                                        one and only Bunny LaGrand!
+                                        This year’s fare includes
+                                        pulled pork sandwiches, with a vegetarian option made from jack fruit that is to
+                                        die
+                                        for! Served with a side, a beverage, and dessert. <br/>
+                                    </p>
+                                    <p className='font-bold mb-0'>Tickets are required for food.</p>
+                                    <p className='mt-0'>
+                                         Suggested donation $25. Tickets are available at
+                                        Ajo Copper News, Ajo Chamber of Commerce, and at the Saturday Mercado in Ajo’s
+                                        beautiful historic Plaza.
+                                    </p>
+
+
+                                </div>
+                            </div>
+
+                            <div className="font-bold text-lg text-center">And that’s not all!</div>
+
+                            <div className="flex items-start">
+                                <span className="font-bold text-lg">7:00</span>
+                                <div className="ml-4 leading-6">
+                                    Organ Pipe Cactus National Park rangers will join us again and guide us through
+                                    the nighttime sky with laser pointers, telescopes and storytelling!
+                                </div>
+                            </div>
+
+                            <div className="flex items-start">
+                                <div className="font-bold text-lg">9:00</div>
+                                <div className="ml-4 leading-6">
+                                    Bonfire jam session!
+                                    Bring your instruments and voices. Sing along, tap your feet, and clap your
+                                    hands as we sit by the fire and play beneath the stars.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <p>
+                            This event is free and open to the public. Tickets are required for food only. Suggested
+                            donation
+                            $25.
+                            Tickets are available at Ajo Copper News, Ajo Chamber of Commerce, and at the Saturday Mercado
+                            in
+                            Ajo’s beautiful historic Plaza.
+                            <br />
+                            For more information, <Link href={'#contact'}>contact us</Link> at <Link href={'mailto:info@loveworksajo.com'}>info@loveworksajo.com</Link>.
+                        </p>
+                    </div>
                 </>
             ),
             button: (
 
-                <Link target={`_blank`} rel={`noreferrer`} href={`https://goo.gl/maps/r3Rutja53veCsP319`} >
-                    <button name='Directions' className="text-shadow-sm bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Directions</button>
+                <Link target={`_blank`} rel={`noreferrer`} href={`https://goo.gl/maps/r3Rutja53veCsP319`}>
+                    <button name='Directions'
+                            className="text-shadow-sm bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Directions
+                    </button>
                 </Link>
             )
         },
