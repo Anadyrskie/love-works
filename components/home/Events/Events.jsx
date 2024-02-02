@@ -123,27 +123,54 @@ export function Events() {
             },
             content: (
                 <>
-                    <p>
-                        Join us for a day of music, art, food, and fun at Ajo Plaza on Saturday, March 11th. This
+                    <p>Experience a day of music, art, food, and fun at Ajo Plaza on Saturday, March 9th. This
                         tri-cultural event celebrates the rich cultural heritage of the Ajo community and features a
-                        variety of activities for all ages.
-                        <br/>
-                        Enjoy headlining performances by Gerty and the TO Boyz, as well as other talented artists,
-                        including Ballet Folklórico, Peace Restored, Priminition, Fly By Night, Zaniel and the T.O.
-                        Natives, Jack and Terry, and the Kitchen Table Band.
-                        <br/>
-                        Check out the artisan booths and Native American vendors selling handcrafted items. Sample
-                        delicious food from local favorites Nina's Kitchen, Ajo Pie, Jody Proscia, Ajo Sno, Bunny
-                        LaGrand, and enjoy drinks from the beer and wine garden, which benefits the Ajo Volunteer Fire
-                        Department.
-                        <br/>
-                        Be sure to explore the powerful and thought-provoking <Link
-                        href={'https://www.tomkiefer.com/el-sueno-americano'} target={'_blank'} rel={'noreferrer'}>El
-                        Sueño Americano</Link> photo exhibit, which sheds light on the experiences of migrants and those
-                        seeking asylum at the US/Mexico border.
-                        <br/>
-                        Don't miss out on the fun! Bring your family, friends, and a chair, and spend the day experiencing the best of Ajo's culture and community.
-                    </p>
+                        variety of activities for all ages.</p>
+                    <ul>
+                        <li>
+                            Enjoy a headlining performance from Gerty and the TO Boyz, as well as other talented artists,
+                            including:
+                            <ul className={'leading-4'}>
+                                <li>
+                                    Ballet Folklórico
+                                </li>
+                                <li>
+                                    Peace Restored
+                                </li>
+                                <li>
+                                    Priminition
+                                </li>
+                                <li>
+                                    Diamonds and Rust
+                                </li>
+                                <li>
+                                    Gila River Basket Dancers
+                                </li>
+                                <li>
+                                    Out of Hand
+                                </li>
+                                <li>
+                                    The Kitchen Table Band
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Check out the artisan booths and Native American vendors selling handcrafted items.
+                        </li>
+                        <li>
+                            Sample delicious food from local favorites Nina's Kitchen, Jody Proscia, Lena's Taqueria, JC's Agua Fresca, and frybread!
+                        </li>
+                        <li>
+                            Those of age can enjoy drinks from the beer and wine garden.
+                        </li>
+                        <li>
+                            Local author, artist, and wellness practitioner Jovita Wallace is hosting a book signing from 4-6pm @ Bonzai Studio.
+                        </li>
+                        <li>
+                            Get a move-on and get your groove on at the Three Nations Dance Party starting at 6pm, featuring Gerty and the T.O. Boyz.
+                        </li>
+                    </ul>
+                    <p>Don't miss out on the fun! Bring your family, friends, and a chair, and spend the day experiencing the best of Ajo's culture and community.</p>
                     <Link href={`/schedule#march11`}></Link>
                 </>
             ),
