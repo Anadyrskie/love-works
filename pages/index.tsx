@@ -21,10 +21,6 @@ export default function Home() {
         <Hero  />
         <Update />
         <Events />
-        <Thanks />
-        <br />
-        {/*<h1 className="text-center text-4xl font-bold">2023 Schedule</h1>*/}
-        {/*<Events />*/}
         <Contact />
         <Sponsors />
     </div>
