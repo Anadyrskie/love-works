@@ -124,14 +124,24 @@ export function Events() {
             content: (
                 <>
                     <p>
-                        Join us for a day of music, art, food, and fun at Ajo Plaza on Saturday, March 11th. This tri-cultural event celebrates the rich cultural heritage of the Ajo community and features a variety of activities for all ages.
-                        <br />
-                        Enjoy headlining performances by Gerty and the TO Boyz, as well as other talented artists, including Ballet Folklórico, Peace Restored, Priminition, Fly By Night, Zaniel and the T.O. Natives, Jack and Terry, and the Kitchen Table Band.
-                        <br />
-                        Check out the artisan booths and Native American vendors selling handcrafted items. Sample delicious food from local favorites Nina's Kitchen, Ajo Pie, Jody Proscia, Ajo Sno, Bunny LaGrand, and enjoy drinks from the beer and wine garden, which benefits the Ajo Volunteer Fire Department.
-                        <br />
-                        Be sure to explore the powerful and thought-provoking <Link href={'https://www.tomkiefer.com/el-sueno-americano'} target={'_blank'} rel={'noreferrer'}>El Sueño Americano</Link> photo exhibit, which sheds light on the experiences of migrants and those seeking asylum at the US/Mexico border.
-                        <br />
+                        Join us for a day of music, art, food, and fun at Ajo Plaza on Saturday, March 11th. This
+                        tri-cultural event celebrates the rich cultural heritage of the Ajo community and features a
+                        variety of activities for all ages.
+                        <br/>
+                        Enjoy headlining performances by Gerty and the TO Boyz, as well as other talented artists,
+                        including Ballet Folklórico, Peace Restored, Priminition, Fly By Night, Zaniel and the T.O.
+                        Natives, Jack and Terry, and the Kitchen Table Band.
+                        <br/>
+                        Check out the artisan booths and Native American vendors selling handcrafted items. Sample
+                        delicious food from local favorites Nina's Kitchen, Ajo Pie, Jody Proscia, Ajo Sno, Bunny
+                        LaGrand, and enjoy drinks from the beer and wine garden, which benefits the Ajo Volunteer Fire
+                        Department.
+                        <br/>
+                        Be sure to explore the powerful and thought-provoking <Link
+                        href={'https://www.tomkiefer.com/el-sueno-americano'} target={'_blank'} rel={'noreferrer'}>El
+                        Sueño Americano</Link> photo exhibit, which sheds light on the experiences of migrants and those
+                        seeking asylum at the US/Mexico border.
+                        <br/>
                         Don't miss out on the fun! Bring your family, friends, and a chair, and spend the day experiencing the best of Ajo's culture and community.
                     </p>
                     <Link href={`/schedule#march11`}></Link>
