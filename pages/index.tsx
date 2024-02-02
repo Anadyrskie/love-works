@@ -20,6 +20,7 @@ export default function Home() {
         <Navbar />
         <Hero  />
         <Update />
+        <h1 className="text-center text-4xl font-bold">2024 Schedule</h1>
         <Events />
         <Contact />
         <Sponsors />
