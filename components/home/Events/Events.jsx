@@ -174,11 +174,11 @@ export function Events() {
                     <Link href={`/schedule#march11`}></Link>
                 </>
             ),
-            button: (
-                <Link href={`/schedule#march11`}>
-                    <button name='Schedule' className="text-shadow-sm bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Schedule</button>
-                </Link>
-            )
+            // button: (
+            //     <Link href={`/schedule#march11`}>
+            //         <button name='Schedule' className="text-shadow-sm bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Schedule</button>
+            //     </Link>
+            // )
         },
         day3: {
             time: 'All day',
@@ -195,11 +195,11 @@ export function Events() {
                     </p>
                 </>
             ),
-            button: (
-                <Link href={`/schedule#march12`}>
-                    <button name='Schedule' className="text-shadow-sm bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Schedule</button>
-                </Link>
-            )
+            // button: (
+            //     <Link href={`/schedule#march12`}>
+            //         <button name='Schedule' className="text-shadow-sm bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">Schedule</button>
+            //     </Link>
+            // )
         }
     }
 
