@@ -7,10 +7,10 @@ import Link from "next/link";
 
 export function Events() {
     let days = {
-        march10: {
-            title: 'March 10',
-            date: 'March 10th',
-            time: '5:30-9:00 PM',
+        day1: {
+            title: 'March 8',
+            date: 'March 8th',
+            time: '5:00 PM',
             description: 'Food, music, stargazing and fun on Ajo\'s Scenic Loop. Don\'t miss it!',
             image: {
                 url: '/firesideJam.jpeg', alt: 'Love Works Poster'
@@ -34,9 +34,12 @@ export function Events() {
                 </Link>
             )
         },
-        march11: {
+        day2: {
             time: '9AM - ??',
-            title: 'March 11', date: 'March 11th', description: 'Live music, art, food, and fun in the historic Ajo Plaza', image: {
+            title: 'March 9',
+            date: 'March 9th',
+            description: 'Live music, art, food, and fun in the historic Ajo Plaza',
+            image: {
                 url: '/loveworksPoster.jpeg', alt: 'Love Works Poster'
             },
             location: {
@@ -64,9 +67,9 @@ export function Events() {
                 </Link>
             )
         },
-        march12: {
+        day3: {
             time: 'All day',
-            title: 'March 12', date: 'March 12th', description: `Explore what makes Ajo special: its unique culture and community!`, image: {
+            title: 'March 10', date: 'March 10th', description: `Explore what makes Ajo special: its unique culture and community!`, image: {
                 url: '/AMountain.png', alt: 'Love Works Poster'
             },
             location: {
@@ -91,28 +94,28 @@ export function Events() {
     return (
         <div className='py-3 md:pt-5 md:pb-10 flex flex-col items-center justify-center' id='events'>
             <div className='lg:hidden'>
-                <Accordion event={days.march10} className={``}>
+                <Accordion event={days.day1} className={``}>
                     <div>
-                        {days.march10.content}
+                        {days.day1.content}
                     </div>
                     <div className='flex flex-col items-center mt-2'>
-                        {days.march10.button}
+                        {days.day1.button}
                     </div>
                 </Accordion>
-                <Accordion event={days.march11}>
+                <Accordion event={days.day2}>
                     <div>
-                        {days.march11.content}
+                        {days.day2.content}
                     </div>
                     <div className='flex flex-col items-center mt-2'>
-                        {days.march11.button}
+                        {days.day2.button}
                     </div>
                 </Accordion>
-                <Accordion event={days.march12}>
+                <Accordion event={days.day3}>
                     <div>
-                        {days.march12.content}
+                        {days.day3.content}
                     </div>
                     <div className='flex flex-col items-center mt-2'>
-                        {days.march12.button}
+                        {days.day3.button}
                     </div>
                 </Accordion>
 
@@ -135,14 +138,14 @@ export function Events() {
                             ))}
                         </Tab.List>
                         <Tab.Panels >
-                                <EventPanel key={days.march10.title + ' panel'} className='w-[80%] px-10 py-3 m-auto' event={days.march10} button={days.march10.button}>
-                                    {days.march10.content}
+                                <EventPanel key={days.day1.title + ' panel'} className='w-[80%] px-10 py-3 m-auto' event={days.day1} button={days.day1.button}>
+                                    {days.day1.content}
                                 </EventPanel>
-                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={days.march11.title + ' panel'} event={days.march11} button={days.march11.button}>
-                                    {days.march11.content}
+                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={days.day2.title + ' panel'} event={days.day2} button={days.day2.button}>
+                                    {days.day2.content}
                                 </EventPanel>
-                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={days.march12.title + ' panel'} event={days.march12} button={days.march12.button}>
-                                    {days.march12.content}
+                                <EventPanel className='w-[80%] px-10 py-3 m-auto' key={days.day3.title + ' panel'} event={days.day3} button={days.day3.button}>
+                                    {days.day3.content}
                                 </EventPanel>
                         </Tab.Panels>
                     </Tab.Group>
