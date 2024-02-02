@@ -16,7 +16,7 @@ import Update from "@/components/Update";
 export default function Home() {
   return (
     <>
-    <div>
+    <div className='pb-10'>
         <Navbar />
         <Hero  />
         <Update />
