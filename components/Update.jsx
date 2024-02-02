@@ -32,9 +32,6 @@ export default function Update() {
                     <button name='Application' className="text-shadow-sm bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mb-4">PDF Application</button>
                 </Link>
             </div>
-        <h1 className={'text-center mt-2'}>2024 Dates have been set!</h1>
-            <p className={'text-2xl'}>The 2024 Love Works festival will be held <span className={'text-3xl font-bold ml-1'}>March 8th, 9th & 10th, 2024</span></p>
-            <p className={'text-center'}>Check back for updates!</p>
         </div>
         )
 }
