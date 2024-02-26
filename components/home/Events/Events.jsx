@@ -220,10 +220,69 @@ export function Events() {
             },
             content: (
                 <>
+                    <h3>
+                        SUNDAY FUN DAY
+                    </h3>
                     <p>
                         The fun and music continue on Sunday, with a variety of activities. <br/>
                         More information to follow.
                     </p>
+                    <h3 className='text-center'>Event Lineup</h3>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Event</th>
+                            <th>Location</th>
+                            <th>Pricing</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>9:00a</td>
+                            <td>Mimi's Community Breakfast</td>
+                            <td>Ajo Community Golf Course</td>
+                            <td>$12</td>
+                        </tr>
+                        <tr>
+                            <td>9:00a</td>
+                            <td>Bird watching with Organ Pipe Nat'l Monument Rangers</td>
+                            <td>Ajo Community Golf Course</td>
+                        </tr>
+                        <tr>
+                            <td>10:00a</td>
+                            <td>Kitchen Table Band</td>
+                            <td>Ajo Plaza</td>
+                        </tr>
+                        <tr>
+                            <td>11:00a</td>
+                            <td>Bonzai Studio Tap Crew</td>
+                            <td>Ajo Plaza</td>
+                        </tr>
+                        <tr>
+                            <td>12:00p</td>
+                            <td>Dialectic Flowers</td>
+                            <td>Ajo Plaza</td>
+                        </tr>
+                        <tr>
+                            <td>1:00p</td>
+                            <td>Ajo Community Theater presents:<br />Beauty and the Beast, a one-act play</td>
+                            <td>Ajo Chamber of Commerce</td>
+                        </tr>
+                        <tr>
+                            <td>2:00p</td>
+                        </tr>
+                        <tr>
+                            <td>3:00p</td>
+                        </tr>
+                        <tr>
+                            <td>4:00p</td>
+                            <td>Crystal Bowl Meditation</td>
+                            <td>Bonzai Studio</td>
+                            <td>$10</td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </>
             ),
             // button: (
