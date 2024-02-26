@@ -134,7 +134,7 @@ export function Events() {
                             Sample delicious food from local favorites: Lena's Taqueria, JJs Aguas Frescas, and Manuels Eats serving frybread!
                         </li>
                         <li>
-                            Hide from the sun and enjoy a cold drink in the all-ages Refreshment Garden.
+                            Hide from the sun and enjoy a cold drink in the all-ages Refreshment Zone, serving non-alcoholic beverages and snacks.
                         </li>
                         <li>
                             Local author, artist, and wellness practitioner Jovita Wallace is hosting a book signing from 4-6pm @ Bonzai Studio.
