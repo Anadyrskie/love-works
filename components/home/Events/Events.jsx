@@ -190,6 +190,10 @@ export function Events() {
                             <td>Ajo Plaza</td>
                         </tr>
                         <tr>
+                            <td>4:00p</td>
+
+                        </tr>
+                        <tr>
                             <td>5:00p</td>
                             <td>Mimi's Pizza</td>
                             <td>Three Nations Market</td>
