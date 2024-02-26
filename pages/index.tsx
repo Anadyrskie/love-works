@@ -19,8 +19,8 @@ export default function Home() {
     <div className='pb-10'>
         <Navbar />
         <Hero  />
-        <Update />
-        <h1 className="text-center text-4xl font-bold">2024 Schedule</h1>
+        {/*<Update />*/}
+        <h1 className="text-center text-4xl font-bold mt-10">2024 Schedule</h1>
         <Events />
         <Contact />
         <Sponsors />
