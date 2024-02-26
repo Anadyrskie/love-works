@@ -111,7 +111,7 @@ export function Events() {
             )
         },
         day2: {
-            time: '9AM - ??',
+            time: '9AM - 8PM',
             title: 'March 9',
             date: 'March 9th',
             description: 'Live music, art, food, and fun in the historic Ajo Plaza',
