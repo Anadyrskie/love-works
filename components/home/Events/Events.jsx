@@ -119,7 +119,7 @@ export function Events() {
                 url: '/loveworksPoster.jpeg', alt: 'Love Works Poster'
             },
             location: {
-                name: 'Ajo Plaza', address: 'Address 2', link: 'https://goo.gl/maps/m2tdgxzUfwTLbSVDA'
+                name: 'Ajo Plaza', address: 'Address 2', link: 'https://maps.app.goo.gl/34mwPnUfhgn6hEgx5'
             },
             content: (
                 <>
@@ -186,7 +186,7 @@ export function Events() {
                 url: '/AMountain.png', alt: 'Love Works Poster'
             },
             location: {
-                name: 'Ajo', address: 'Address 3', link: 'https://goo.gl/maps/8aycuyMiEPG341HP8'
+                name: 'Ajo Plaza', address: 'Address 3', link: 'https://maps.app.goo.gl/34mwPnUfhgn6hEgx5'
             },
             content: (
                 <>
