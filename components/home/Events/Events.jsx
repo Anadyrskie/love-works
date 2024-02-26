@@ -39,7 +39,7 @@ export function Events() {
                                     Sonoran Desert as we welcome our musical guests:
                                     <div className='flex flex-col text leading-7 text-lg'>
                                         <span>1. The Kitchen Table Band</span>
-                                        <span>2. Rock N Roll Zombies</span>
+                                        <span>2. Tristan Thorndyke</span>
                                         <span className='pl-2 text-base'>and our headline act</span>
                                         <span>3. Southern Country Band</span>
                                     </div>
