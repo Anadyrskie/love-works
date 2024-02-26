@@ -161,7 +161,7 @@ export function Events() {
                             Sample delicious food from local favorites Nina's Kitchen, Jody Proscia, Lena's Taqueria, JC's Agua Fresca, and frybread!
                         </li>
                         <li>
-                            Those of age can enjoy drinks from the beer and wine garden.
+                            Hide from the sun and enjoy a cold drink in the all-ages Refreshment Garden.
                         </li>
                         <li>
                             Local author, artist, and wellness practitioner Jovita Wallace is hosting a book signing from 4-6pm @ Bonzai Studio.
