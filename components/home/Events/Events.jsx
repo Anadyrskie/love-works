@@ -128,33 +128,6 @@ export function Events() {
                         variety of activities for all ages.</p>
                     <ul>
                         <li>
-                            Enjoy a headlining performance from Gerty and the TO Boyz, as well as other talented artists,
-                            including:
-                            <ul className={'leading-4'}>
-                                <li>
-                                    Ballet Folklórico
-                                </li>
-                                <li>
-                                    Peace Restored
-                                </li>
-                                <li>
-                                    Priminition
-                                </li>
-                                <li>
-                                    Diamonds and Rust
-                                </li>
-                                <li>
-                                    Gila River Basket Dancers
-                                </li>
-                                <li>
-                                    Out of Hand
-                                </li>
-                                <li>
-                                    The Kitchen Table Band
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
                             Check out the artisan booths and Native American vendors selling handcrafted items.
                         </li>
                         <li>
@@ -171,6 +144,63 @@ export function Events() {
                         </li>
                     </ul>
                     <p>Don't miss out on the fun! Bring your family, friends, and a chair, and spend the day experiencing the best of Ajo's culture and community.</p>
+                    <h3 className='text-center'>Event Lineup</h3>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Band</th>
+                            <th>Location</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>9:00a</td>
+                            <td>Diamonds & Rust</td>
+                            <td>Ajo Plaza</td>
+                        </tr>
+                        <tr>
+                            <td>10:00a</td>
+                            <td>Outta Hand</td>
+                            <td>Ajo Plaza</td>
+                        </tr>
+                        <tr>
+                            <td>11:00a</td>
+                            <td>Ballet Folklórico</td>
+                            <td>Ajo Plaza</td>
+                        </tr>
+                        <tr>
+                            <td>12:00p</td>
+                            <td>Priminition Trio</td>
+                            <td>Ajo Plaza</td>
+                        </tr>
+                        <tr>
+                            <td>1:00p</td>
+                            <td>Gila River Basket Dancers</td>
+                            <td>Ajo Plaza</td>
+                        </tr>
+                        <tr>
+                            <td>2:00p</td>
+                            <td>Peace Restored</td>
+                            <td>Ajo Plaza</td>
+                        </tr>
+                        <tr>
+                            <td>3:00p</td>
+                            <td>Gertie and the T.O. Boyz</td>
+                            <td>Ajo Plaza</td>
+                        </tr>
+                        <tr>
+                            <td>5:00p</td>
+                            <td>Mimi's Pizza</td>
+                            <td>Three Nations Market</td>
+                        </tr>
+                        <tr>
+                            <td>6:00p</td>
+                            <td>3Nation Dance Party feat. Gertie and the T.O. Boyz</td>
+                            <td>Three Nations Market</td>
+                        </tr>
+                        </tbody>
+                    </table>
                     <Link href={`/schedule#march11`}></Link>
                 </>
             ),
