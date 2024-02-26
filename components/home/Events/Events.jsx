@@ -238,15 +238,14 @@ export function Events() {
                             <th>Time</th>
                             <th>Event</th>
                             <th>Location</th>
-                            <th>Pricing</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <td>9:00a</td>
-                            <td>Mimi's Community Breakfast</td>
+                            <td>Mimi's Community Breakfast<br />$12 / plate</td>
                             <td>Ajo Community Golf Course</td>
-                            <td>$12</td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>9:00a</td>
@@ -281,9 +280,8 @@ export function Events() {
                         </tr>
                         <tr>
                             <td>4:00p</td>
-                            <td>Crystal Bowl Meditation</td>
+                            <td>Crystal Bowl Meditation<br />$10 / person</td>
                             <td>Bonzai Studio</td>
-                            <td>$10</td>
                         </tr>
                         </tbody>
                     </table>
