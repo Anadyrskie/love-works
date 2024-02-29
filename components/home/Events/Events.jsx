@@ -156,7 +156,7 @@ export function Events() {
                         <tbody>
                         <tr>
                             <td>9:00a</td>
-                            <td>Diamonds & Rust</td>
+                            <td>Beth and Terry</td>
                             <td>Ajo Plaza</td>
                         </tr>
                         <tr>
@@ -166,7 +166,7 @@ export function Events() {
                         </tr>
                         <tr>
                             <td>11:00a</td>
-                            <td>Ballet Folklórico</td>
+                            <td>Diamonds and Rust</td>
                             <td>Ajo Plaza</td>
                         </tr>
                         <tr>
