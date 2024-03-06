@@ -273,7 +273,7 @@ export function Events() {
                         </tr>
                         <tr>
                             <td>1:00p</td>
-                            <td>Ajo Community Theater presents:<br />Beauty and the Beast, a one-act play</td>
+                            <td>Coyote Callback presents:<br />Beauty and the Beast, a one-act play</td>
                             <td>Ajo Chamber of Commerce</td>
                         </tr>
                         <tr>
