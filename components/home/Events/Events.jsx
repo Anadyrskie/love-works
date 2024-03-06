@@ -280,7 +280,7 @@ export function Events() {
                         </tr>
                         <tr>
                             <td>4:00p</td>
-                            <td>Crystal Bowl Meditation<br />$10 / person</td>
+                            <td>Crystal Bowl Meditation<br />$15 / person</td>
                             <td>Bonzai Studio</td>
                         </tr>
                         </tbody>
