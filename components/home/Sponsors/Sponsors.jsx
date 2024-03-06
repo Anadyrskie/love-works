@@ -1,12 +1,10 @@
 import Image from "next/image";
 
 import ACFAlogo from "../../../public/sponsors/ACFA-logo.png"
-import cfsaLogo from "../../../public/sponsors/cfsa-logo.svg"
-import freeportLogo from "../../../public/sponsors/freeport.png"
 import acaLogo from "../../../public/sponsors/ACAlogo.png"
 import friLogo from "../../../public/sponsors/FRILogo.png"
 import ISDAlogo from "../../../public/sponsors/ISDA-logo.png"
-import southwestLogo from "../../../public/sponsors/southwestAlliance.png"
+import chamberLogo from "../../../public/sponsors/ajochamber.jpg"
 
 export default function Sponsors() {
     return (<div id='sponsors' className='flex flex-col items-center justify-center mx-10 m-auto'>
@@ -44,7 +42,11 @@ export default function Sponsors() {
                         <Image className='rounded' src={ISDAlogo} height={110}
                                alt='International Sonoran Desert Alliance Logo'/>
                     </a>
+                        <a href='https://www.ajochamber.com/' target='_blank' rel='noreferrer'>
+                        <Image className='rounded' src={chamberLogo} height={110}
+                               alt='International Sonoran Desert Alliance Logo'/>
+                    </a>
                     </div>
                 </span>
-        </div>)
+    </div>)
 }
