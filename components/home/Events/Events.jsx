@@ -140,7 +140,7 @@ export function Events() {
                             Local author, artist, and wellness practitioner Jovita Wallace is hosting a book signing from 4-6pm @ Bonzai Studio.
                         </li>
                         <li>
-                            Get a move-on and get your groove on at the Three Nations Dance Party starting at 6pm, featuring Gerty and the T.O. Boyz.
+                            Get a move-on and get your groove on at the Three Nations Dance Party starting at 5pm, featuring Gerty and the T.O. Boyz and the Kitchen Table Band.
                         </li>
                     </ul>
                     <p>Don't miss out on the fun! Bring your family, friends, and a chair, and spend the day experiencing the best of Ajo's culture and community.</p>
@@ -195,7 +195,11 @@ export function Events() {
                         </tr>
                         <tr>
                             <td>5:00p</td>
-                            <td>Mimi's Pizza</td>
+                            <td>Kitchen Table Band
+                            <br />
+                                Mimi's Pizza
+
+                            </td>
                             <td>Three Nations Market</td>
                         </tr>
                         <tr>
