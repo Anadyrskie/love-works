@@ -24,7 +24,7 @@ export function Hero() {
                 <h1 className="text-4xl font-extrabold text-shadow-md tracking-tight text-white sm:text-5xl lg:text-6xl">
                     <span className='block text-7xl sm:text-8xl md:text-[100px] lg:text-[110px]'>Love Works</span>
                     <span>Ajo Desert Festival</span>
-                    <span className="block">March 8, 9, 10</span>
+                    <span className="block">March 14, 15, 16</span>
                 </h1>
             </div>
         </div>

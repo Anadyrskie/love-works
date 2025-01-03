@@ -8,8 +8,8 @@ import Link from "next/link";
 export function Events() {
     let days = {
         day1: {
-            title: 'March 8',
-            date: 'March 8th',
+            title: 'March 14',
+            date: 'March 14th',
             time: '5:00 PM',
             description: 'Food, music, stargazing and fun on Ajo\'s Scenic Loop. Don\'t miss it!',
             image: {
@@ -22,83 +22,86 @@ export function Events() {
             content: (
                 <>
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
-                    <p className='text-black dark:text-white text-2xl mb-0'>Join us for dinner in the desert at the Cowpie!</p>
+                    <p className='text-black dark:text-white text-2xl mb-0'>Join us for dinner in the desert at the
+                        Cowpie!</p>
                     <p className='text-lg text-black dark:text-white mt-0'>
                         Enjoy live music, stargazing, and a bonfire jam session!
                         This is our third year offering this exciting event!
                     </p>
                     <h4 className='text-center mt-1 md:mt-0 text-xl md:text-lg'>
                         – BRING A CHAIR! –
-                   </h4>
-                    <div className='leading-6'>
-                        <div className="space-y-4">
-                            <div className="flex items-start">
-                                <div className="font-bold text-lg">4:00</div>
-                                <div className="ml-4 leading-6">
-                                    Come on out and enjoy the gorgeous backdrop of the
-                                    Sonoran Desert as we welcome our musical guests:
-                                    <div className='flex flex-col text leading-7 text-lg'>
-                                        <span>1. The Kitchen Table Band</span>
-                                        <span>2. Tristan Thorndyke</span>
-                                        <span className='pl-2 text-base'>and our headline act</span>
-                                        <span>3. Southern Country Band</span>
-                                    </div>
-                                </div>
-                            </div>
+                    </h4>
+                    <h3 className='text-center'>– 2025 Schedule coming when we have it! –</h3>
 
-                            <div className="flex items-start">
-                                <div className="font-bold text-lg">5:00</div>
-                                <div className="ml-4 leading-6">
-                                    <p>Dinner provided by the
-                                        one and only Bunny LaGrand!
-                                        This year’s fare includes
-                                        pulled pork sandwiches, with a vegetarian option made from jack fruit that is to
-                                        die
-                                        for! Served with a side, a beverage, and dessert. <br/>
-                                    </p>
-                                    <p className='font-bold mb-0'>Tickets are required for food.</p>
-                                    <p className='mt-0'>
-                                         Suggested donation $25. Tickets are available at
-                                        Ajo Copper News, Ajo Chamber of Commerce, and at the Saturday Mercado in Ajo’s
-                                        beautiful historic Plaza.
-                                    </p>
+                    {/*<div className='leading-6'>*/}
+                    {/*    <div className="space-y-4">*/}
+                    {/*        <div className="flex items-start">*/}
+                    {/*            <div className="font-bold text-lg">4:00</div>*/}
+                    {/*            <div className="ml-4 leading-6">*/}
+                    {/*                Come on out and enjoy the gorgeous backdrop of the*/}
+                    {/*                Sonoran Desert as we welcome our musical guests:*/}
+                    {/*                <div className='flex flex-col text leading-7 text-lg'>*/}
+                    {/*                    <span>1. The Kitchen Table Band</span>*/}
+                    {/*                    <span>2. Tristan Thorndyke</span>*/}
+                    {/*                    <span className='pl-2 text-base'>and our headline act</span>*/}
+                    {/*                    <span>3. Southern Country Band</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*        </div>*/}
 
-
-                                </div>
-                            </div>
-
-                            <div className="font-bold text-lg text-center">And that’s not all!</div>
-
-                            <div className="flex items-start">
-                                <span className="font-bold text-lg">7:00</span>
-                                <div className="ml-4 leading-6">
-                                    Organ Pipe Cactus National Park rangers will join us again and guide us through
-                                    the nighttime sky with laser pointers, telescopes and storytelling!
-                                </div>
-                            </div>
-
-                            <div className="flex items-start">
-                                <div className="font-bold text-lg">9:00</div>
-                                <div className="ml-4 leading-6">
-                                    Bonfire jam session!
-                                    Bring your instruments and voices. Sing along, tap your feet, and clap your
-                                    hands as we sit by the fire and play beneath the stars.
-                                </div>
-                            </div>
-                        </div>
+                    {/*        <div className="flex items-start">*/}
+                    {/*            <div className="font-bold text-lg">5:00</div>*/}
+                    {/*            <div className="ml-4 leading-6">*/}
+                    {/*                <p>Dinner provided by the*/}
+                    {/*                    one and only Bunny LaGrand!*/}
+                    {/*                    This year’s fare includes*/}
+                    {/*                    pulled pork sandwiches, with a vegetarian option made from jack fruit that is to*/}
+                    {/*                    die*/}
+                    {/*                    for! Served with a side, a beverage, and dessert. <br/>*/}
+                    {/*                </p>*/}
+                    {/*                <p className='font-bold mb-0'>Tickets are required for food.</p>*/}
+                    {/*                <p className='mt-0'>*/}
+                    {/*                     Suggested donation $25. Tickets are available at*/}
+                    {/*                    Ajo Copper News, Ajo Chamber of Commerce, and at the Saturday Mercado in Ajo’s*/}
+                    {/*                    beautiful historic Plaza.*/}
+                    {/*                </p>*/}
 
 
-                        <p>
-                            This event is free and open to the public. Tickets are required for food only. Suggested
-                            donation
-                            $25.
-                            Tickets are available at Ajo Copper News, Ajo Chamber of Commerce, and at the Saturday Mercado
-                            in
-                            Ajo’s beautiful historic Plaza.
-                            <br />
-                            For more information, <Link href={'#contact'}>contact us</Link> at <Link href={'mailto:info@loveworksajo.com'}>info@loveworksajo.com</Link>.
-                        </p>
-                    </div>
+                    {/*            </div>*/}
+                    {/*        </div>*/}
+
+                    {/*        <div className="font-bold text-lg text-center">And that’s not all!</div>*/}
+
+                    {/*        <div className="flex items-start">*/}
+                    {/*            <span className="font-bold text-lg">7:00</span>*/}
+                    {/*            <div className="ml-4 leading-6">*/}
+                    {/*                Organ Pipe Cactus National Park rangers will join us again and guide us through*/}
+                    {/*                the nighttime sky with laser pointers, telescopes and storytelling!*/}
+                    {/*            </div>*/}
+                    {/*        </div>*/}
+
+                    {/*        <div className="flex items-start">*/}
+                    {/*            <div className="font-bold text-lg">9:00</div>*/}
+                    {/*            <div className="ml-4 leading-6">*/}
+                    {/*                Bonfire jam session!*/}
+                    {/*                Bring your instruments and voices. Sing along, tap your feet, and clap your*/}
+                    {/*                hands as we sit by the fire and play beneath the stars.*/}
+                    {/*            </div>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+
+
+                    {/*    <p>*/}
+                    {/*        This event is free and open to the public. Tickets are required for food only. Suggested*/}
+                    {/*        donation*/}
+                    {/*        $25.*/}
+                    {/*        Tickets are available at Ajo Copper News, Ajo Chamber of Commerce, and at the Saturday Mercado*/}
+                    {/*        in*/}
+                    {/*        Ajo’s beautiful historic Plaza.*/}
+                    {/*        <br />*/}
+                    {/*        For more information, <Link href={'#contact'}>contact us</Link> at <Link href={'mailto:info@loveworksajo.com'}>info@loveworksajo.com</Link>.*/}
+                    {/*    </p>*/}
+                    {/*</div>*/}
                 </>
             ),
             button: (
@@ -112,8 +115,8 @@ export function Events() {
         },
         day2: {
             time: '9AM - 8PM',
-            title: 'March 9',
-            date: 'March 9th',
+            title: 'March 15',
+            date: 'March 15th',
             description: 'Live music, art, food, and fun in the historic Ajo Plaza',
             image: {
                 url: '/loveworksPoster.jpeg', alt: 'Love Works Poster'
@@ -126,90 +129,91 @@ export function Events() {
                     <p>Experience a day of music, art, food, and fun at Ajo Plaza on Saturday, March 9th. This
                         tri-cultural event celebrates the rich cultural heritage of the Ajo community and features a
                         variety of activities for all ages.</p>
-                    <ul>
-                        <li>
-                            Check out the artisan booths and Native American vendors selling handcrafted items.
-                        </li>
-                        <li>
-                            Sample delicious food from local favorites: Lena's Taqueria, JJs Aguas Frescas, and Manuels Eats serving frybread!
-                        </li>
-                        <li>
-                            Hide from the sun and enjoy a cold drink in the all-ages Refreshment Zone, serving non-alcoholic beverages and snacks.
-                        </li>
-                        <li>
-                            Local author, artist, and wellness practitioner Jovita Wallace is hosting a book signing from 4-6pm @ Bonzai Studio.
-                        </li>
-                        <li>
-                            Get a move-on and get your groove on at the Three Nations Dance Party starting at 5pm, featuring Gerty and the T.O. Boyz and the Kitchen Table Band.
-                        </li>
-                    </ul>
-                    <p>Don't miss out on the fun! Bring your family, friends, and a chair, and spend the day experiencing the best of Ajo's culture and community.</p>
-                    <h3 className='text-center'>Event Lineup</h3>
-                    <table>
-                        <thead>
-                        <tr>
-                            <th>Time</th>
-                            <th>Band</th>
-                            <th>Location</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>9:00a</td>
-                            <td>Beth and Terry</td>
-                            <td>Ajo Plaza</td>
-                        </tr>
-                        <tr>
-                            <td>10:00a</td>
-                            <td>Outta Hand</td>
-                            <td>Ajo Plaza</td>
-                        </tr>
-                        <tr>
-                            <td>11:00a</td>
-                            <td>Diamonds and Rust</td>
-                            <td>Ajo Plaza</td>
-                        </tr>
-                        <tr>
-                            <td>12:00p</td>
-                            <td>Priminition Trio</td>
-                            <td>Ajo Plaza</td>
-                        </tr>
-                        <tr>
-                            <td>1:00p</td>
-                            <td>Gila River Basket Dancers</td>
-                            <td>Ajo Plaza</td>
-                        </tr>
-                        <tr>
-                            <td>2:00p</td>
-                            <td>Peace Restored</td>
-                            <td>Ajo Plaza</td>
-                        </tr>
-                        <tr>
-                            <td>3:00p</td>
-                            <td>Gertie and the T.O. Boyz</td>
-                            <td>Ajo Plaza</td>
-                        </tr>
-                        <tr>
-                            <td>4:00p</td>
+                    <h3 className='text-center'>– 2025 Schedule coming when we have it! –</h3>
+                    {/*<ul>*/}
+                    {/*    <li>*/}
+                    {/*        Check out the artisan booths and Native American vendors selling handcrafted items.*/}
+                    {/*    </li>*/}
+                    {/*    <li>*/}
+                    {/*        Sample delicious food from local favorites: Lena's Taqueria, JJs Aguas Frescas, and Manuels Eats serving frybread!*/}
+                    {/*    </li>*/}
+                    {/*    <li>*/}
+                    {/*        Hide from the sun and enjoy a cold drink in the all-ages Refreshment Zone, serving non-alcoholic beverages and snacks.*/}
+                    {/*    </li>*/}
+                    {/*    <li>*/}
+                    {/*        Local author, artist, and wellness practitioner Jovita Wallace is hosting a book signing from 4-6pm @ Bonzai Studio.*/}
+                    {/*    </li>*/}
+                    {/*    <li>*/}
+                    {/*        Get a move-on and get your groove on at the Three Nations Dance Party starting at 5pm, featuring Gerty and the T.O. Boyz and the Kitchen Table Band.*/}
+                    {/*    </li>*/}
+                    {/*</ul>*/}
+                    {/*<p>Don't miss out on the fun! Bring your family, friends, and a chair, and spend the day experiencing the best of Ajo's culture and community.</p>*/}
+                    {/*<h3 className='text-center'>Event Lineup</h3>*/}
+                    {/*<table>*/}
+                    {/*    <thead>*/}
+                    {/*    <tr>*/}
+                    {/*        <th>Time</th>*/}
+                    {/*        <th>Band</th>*/}
+                    {/*        <th>Location</th>*/}
+                    {/*    </tr>*/}
+                    {/*    </thead>*/}
+                    {/*    <tbody>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>9:00a</td>*/}
+                    {/*        <td>Beth and Terry</td>*/}
+                    {/*        <td>Ajo Plaza</td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>10:00a</td>*/}
+                    {/*        <td>Outta Hand</td>*/}
+                    {/*        <td>Ajo Plaza</td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>11:00a</td>*/}
+                    {/*        <td>Diamonds and Rust</td>*/}
+                    {/*        <td>Ajo Plaza</td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>12:00p</td>*/}
+                    {/*        <td>Priminition Trio</td>*/}
+                    {/*        <td>Ajo Plaza</td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>1:00p</td>*/}
+                    {/*        <td>Gila River Basket Dancers</td>*/}
+                    {/*        <td>Ajo Plaza</td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>2:00p</td>*/}
+                    {/*        <td>Peace Restored</td>*/}
+                    {/*        <td>Ajo Plaza</td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>3:00p</td>*/}
+                    {/*        <td>Gertie and the T.O. Boyz</td>*/}
+                    {/*        <td>Ajo Plaza</td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>4:00p</td>*/}
 
-                        </tr>
-                        <tr>
-                            <td>5:00p</td>
-                            <td>Kitchen Table Band
-                            <br />
-                                Mimi's Pizza
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>5:00p</td>*/}
+                    {/*        <td>Kitchen Table Band*/}
+                    {/*        <br />*/}
+                    {/*            Mimi's Pizza*/}
 
-                            </td>
-                            <td>Three Nations Market</td>
-                        </tr>
-                        <tr>
-                            <td>6:00p</td>
-                            <td>3Nation Dance Party feat. Gertie and the T.O. Boyz</td>
-                            <td>Three Nations Market</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                    <Link href={`/schedule#march11`}></Link>
+                    {/*        </td>*/}
+                    {/*        <td>Three Nations Market</td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>6:00p</td>*/}
+                    {/*        <td>3Nation Dance Party feat. Gertie and the T.O. Boyz</td>*/}
+                    {/*        <td>Three Nations Market</td>*/}
+                    {/*    </tr>*/}
+                    {/*    </tbody>*/}
+                    {/*</table>*/}
+                    {/*<Link href={`/schedule#march11`}></Link>*/}
                 </>
             ),
             // button: (
@@ -220,7 +224,7 @@ export function Events() {
         },
         day3: {
             time: '9AM-4PM',
-            title: 'March 10', date: 'March 10th', description: `Explore what makes Ajo special: its unique culture and community!`, image: {
+            title: 'March 16', date: 'March 16th', description: `Explore what makes Ajo special: its unique culture and community!`, image: {
                 url: '/AMountain.png', alt: 'Love Works Poster'
             },
             location: {
@@ -235,60 +239,62 @@ export function Events() {
                         The fun and music continue on Sunday, with a variety of activities. <br/>
                         More information to follow.
                     </p>
-                    <h3 className='text-center'>Event Lineup</h3>
-                    <table>
-                        <thead>
-                        <tr>
-                            <th>Time</th>
-                            <th>Event</th>
-                            <th>Location</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>9:00a</td>
-                            <td>Mimi's Community Breakfast<br />$12 / plate</td>
-                            <td>Ajo Community Golf Course</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>9:00a</td>
-                            <td>Bird watching with Organ Pipe Nat'l Monument Rangers</td>
-                            <td>Ajo Community Golf Course</td>
-                        </tr>
-                        <tr>
-                            <td>10:00a</td>
-                            <td>Kitchen Table Band</td>
-                            <td>Ajo Plaza</td>
-                        </tr>
-                        <tr>
-                            <td>11:00a</td>
-                            <td>Bonzai Studio Tap Crew</td>
-                            <td>Ajo Plaza</td>
-                        </tr>
-                        <tr>
-                            <td>12:00p</td>
-                            <td>Dialectic Flowers</td>
-                            <td>Ajo Plaza</td>
-                        </tr>
-                        <tr>
-                            <td>1:00p</td>
-                            <td>Coyote Callback presents:<br />Beauty and the Beast, a one-act play</td>
-                            <td>Ajo Chamber of Commerce</td>
-                        </tr>
-                        <tr>
-                            <td>2:00p</td>
-                        </tr>
-                        <tr>
-                            <td>3:00p</td>
-                        </tr>
-                        <tr>
-                            <td>4:00p</td>
-                            <td>Crystal Bowl Meditation<br />$15 / person</td>
-                            <td>Bonzai Studio</td>
-                        </tr>
-                        </tbody>
-                    </table>
+                    <h3 className='text-center'>– 2025 Schedule coming when we have it! –</h3>
+
+                    {/*<h3 className='text-center'>Event Lineup</h3>*/}
+                    {/*<table>*/}
+                    {/*    <thead>*/}
+                    {/*    <tr>*/}
+                    {/*        <th>Time</th>*/}
+                    {/*        <th>Event</th>*/}
+                    {/*        <th>Location</th>*/}
+                    {/*    </tr>*/}
+                    {/*    </thead>*/}
+                    {/*    <tbody>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>9:00a</td>*/}
+                    {/*        <td>Mimi's Community Breakfast<br />$12 / plate</td>*/}
+                    {/*        <td>Ajo Community Golf Course</td>*/}
+                    {/*        <td></td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>9:00a</td>*/}
+                    {/*        <td>Bird watching with Organ Pipe Nat'l Monument Rangers</td>*/}
+                    {/*        <td>Ajo Community Golf Course</td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>10:00a</td>*/}
+                    {/*        <td>Kitchen Table Band</td>*/}
+                    {/*        <td>Ajo Plaza</td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>11:00a</td>*/}
+                    {/*        <td>Bonzai Studio Tap Crew</td>*/}
+                    {/*        <td>Ajo Plaza</td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>12:00p</td>*/}
+                    {/*        <td>Dialectic Flowers</td>*/}
+                    {/*        <td>Ajo Plaza</td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>1:00p</td>*/}
+                    {/*        <td>Coyote Callback presents:<br />Beauty and the Beast, a one-act play</td>*/}
+                    {/*        <td>Ajo Chamber of Commerce</td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>2:00p</td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>3:00p</td>*/}
+                    {/*    </tr>*/}
+                    {/*    <tr>*/}
+                    {/*        <td>4:00p</td>*/}
+                    {/*        <td>Crystal Bowl Meditation<br />$15 / person</td>*/}
+                    {/*        <td>Bonzai Studio</td>*/}
+                    {/*    </tr>*/}
+                    {/*    </tbody>*/}
+                    {/*</table>*/}
                 </>
             ),
             // button: (
