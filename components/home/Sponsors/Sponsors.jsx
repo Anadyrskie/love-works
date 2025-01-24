@@ -13,20 +13,7 @@ export default function Sponsors() {
                 sponsoring, please contact us at <a className='text-blue-500'
                                                     href='mailto:sponsor@loveworksajo.com'>sponsor@loveoworksajo.com</a>
             </p>
-            <span className={`space-y-5 space-x-5 items-center justify-center flex flex-col`}>
-                    <div className={`justify-center items-center`}>
-                        <a href='https://ajoartists.wordpress.com/ajo-council-for-the-fine-arts-acfa-2/' target='_blank'
-                           rel='noreferrer'>
-                        <Image className='rounded' src={ACFAlogo} height={110}
-                               alt='Ajo Council for the Fine Arts Logo'/>
-                            <span className={`text-xs m-1`}>
-                                <p className={``}>
-                                    {/* eslint-disable-next-line react/no-unescaped-entities */}
-                                Sponsored in part by: the DeGrazia Art and Cultural Foundation Fund Endowment for the Arts of Tucson Fund and Viola Steinfeld O'Neil Fund CFSA combined unrestricted Fund
-                            </p>
-                        </span>
-                    </a>
-                    </div>
+            <span className={`space-y-5 space-x-5 items-center justify-center flex flex-col mt-2`}>
                     <div
                         className={`flex flex-inline flex-wrap gap-x-5 gap-y-5 m-auto items-center justify-center lg:max-w-[80%]`}>
 
