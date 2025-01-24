@@ -30,7 +30,7 @@ export default function Home() {
 }
 
 
-// const contact = {
+//  const contact = {
 //     type : 'email',
 //     prefix : 'mailto:',
 //     value : 'test@anadyr.us'
