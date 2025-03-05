@@ -7,6 +7,8 @@ export default function Update() {
 
             <p>Thank you for your interest in having a booth for the Saturday portion of the three-day Ajo LoveWorks
                 Desert Festival.</p>
+            <h4 className='font-bold'>Food Vendor applications due by Feb 14.<br />All other Vendor applications due by Feb 28.</h4>
+            <p></p>
             <div className='flex flex-col items-center'>
                 <Link target={'_blank'} href={`https://forms.gle/3m98kokHDU5mjy3D9`}>
                     <button name='Application'
@@ -19,13 +21,12 @@ export default function Update() {
             <h3>Paper applications/cash & check payments are available:</h3>
             <ul className={'list-decimal marker:text-gray-700 dark:marker:text-gray-200'}>
                 <li>
-                    <p>
-                        by hand at the Art Under the Arches Gallery
-                        (<span className={'font-bold'}>Tues - Sat 9a-4p</span>)
+                    <p>at the Art Under the Arches Gallery
+                        (<span className={'font-bold'}>Tues - Sat 10a-4p</span>)
                     </p>
                 </li>
                 <li>
-                    <p>by hand at the Love Works Festival mercado booth (in front of the Gallery <span className={'font-bold'}>10am - 1pm, Saturdays</span>)
+                    <p>at the Love Works Festival mercado booth (<span className={'font-bold'}>10am - 1pm, Saturdays</span>)
                     </p>
                 </li>
             </ul>
