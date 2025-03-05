@@ -1,6 +1,7 @@
 import Link from "next/link";
+import Image from 'next/image';
 import {useState} from "react";
-
+import logo from '../public/LoveWorksLogoSmall.png'
 export const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
     const links = [
@@ -19,7 +20,10 @@ export const Navbar = () => {
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-4 md:block">
                         <Link className="" href="/">
-                            <h2 className="text-2xl dark:text-white font-bold">Love Works!</h2>
+                            <span className='inline-flex'>
+                                <Image src={logo} alt="LoveWorks Logo" className="w-[40px] mr-2" />
+                            <h2 className="text-2xl dark:text-shadow font-bold" style={{textStroke:'1px black',}}><span className='text-orange-500'>Love</span> <span className='text-blue-400'>Works</span></h2>
+                                                            </span>
                         </Link>
                         <div className="md:hidden">
                             <button name='expand navbar'
