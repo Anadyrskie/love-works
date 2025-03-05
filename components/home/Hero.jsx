@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import splash from '../../public/loveWorks2025.png'
+import splash from '../../public/LoveWorks2025.jpg'
 
 
 export function Hero() {
