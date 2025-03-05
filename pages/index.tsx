@@ -11,6 +11,7 @@ import {Events} from '@/components/home/Events/Events'
 // @ts-ignore
 import Thanks from '@/components/Thanks'
 import Update from "@/components/Update";
+import Donate from "@/components/home/Donate/Donate";
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
         <h1 className="text-center text-4xl font-bold mt-10">2025 Schedule</h1>
         <Events />
         <Contact />
+        <Donate />
         <Sponsors />
     </div>
     </>
