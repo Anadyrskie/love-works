@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Update() {
+export default function Vendors() {
     return (
         <div className={`lg:mx-auto m-10 prose prose-lg dark:prose-invert prose-slate`}>
             <h1 className={'text-center'}>Calling all vendors!</h1>
