@@ -45,12 +45,10 @@ export function Events() {
                             <div className="flex items-start">
                                 <div className="font-bold text-lg">6:00</div>
                                 <div className="ml-4 leading-6">
-                                    <p>Potluck begins! Olsen’s Marketplace is generously providing hotdogs, hamburgers,
-                                        and all the fixings. We invite our amazing Ajo Community to bring along a dish to share. </p>
+                                    Potluck begins! Olsen’s Marketplace is generously providing hotdogs, hamburgers,
+                                        and all the fixings. We invite our amazing Ajo Community to bring along a dish to share.
                                 </div>
                             </div>
-
-                            <div className="font-bold text-lg text-center">-- And that’s not all! --</div>
 
                             <div className="flex items-start">
                                 <span className="font-bold text-lg">7:00</span>
@@ -106,7 +104,7 @@ export function Events() {
                     <div className='leading-6'>
                         <h4 className="font-bold text-lg text-center">Food Vendors</h4>
                         <p>Grab a bite from one of our fantastic food vendors located in the plaza:</p>
-                        <ul className="list-disc pl-5">
+                        <ul className=" space-y-1 capitalize">
                             <li>Nina’s Kitchen</li>
                             <li>The Chu Chu Club</li>
                             <li>Lena’s Taqueria</li>
@@ -114,94 +112,122 @@ export function Events() {
                             <li>Mimi’s Breakfast Burritos & Sandwiches</li>
                             <li>Ajo Sno</li>
                         </ul>
-                        <p>Or check out Ajo’s locally owned restaurants, including Oasis Cafe, Tacos Tarasco (both in the Plaza), Agave Grill, and Fat Cactus Pizza on N 2nd Ave.</p>
+                        <p>Or check out Ajo’s locally owned restaurants, including </p>
+                        <ul className='flex flex-col space-y-1'>
+                            <li>
+                                <Link href={'https://maps.app.goo.gl/Em4dxoQypoF748Tt9'} target={'_blank'}>Oasis Coffee</Link>
+                            </li>
+                            <li>
+                                <Link href={'https://maps.app.goo.gl/f6fC3V3zq27fbHAz6'} target={'_blank'}>Tacos El
+                                    Tarasco</Link>
+                            </li>
+                            <li>
+                                <Link target={'_blank'} href={'https://maps.app.goo.gl/2QFTZTjvmSqbYpDk8'}>
+                                Agave Grill</Link>
+                        </li>
+                        <li>
+                            and <Link href={'https://maps.app.goo.gl/nhKx7Lzv9gxYBWJX9'} target={'_blank'}>Fat Cactus
+                            Pizza</Link>
+                        </li>
+                    </ul>
 
-                        <h4 className="font-bold text-lg text-center mt-4">Live Music & Performances</h4>
-                        <p>Enjoy a full lineup of live entertainment throughout the day!</p>
-                        <div className="space-y-4">
-                            <div className="flex items-start">
-                                <div className="font-bold text-lg">9:00 AM</div>
-                                <div className="ml-4 leading-6">
-                                    Ballet Folklorico – Traditional Mexican dance performance
-                                </div>
-                            </div>
-
-                            <div className="flex items-start">
-                                <div className="font-bold text-lg">10:00 AM</div>
-                                <div className="ml-4 leading-6">Peace Restored</div>
-                            </div>
-
-                            <div className="flex items-start">
-                                <div className="font-bold text-lg">11:00 AM</div>
-                                <div className="ml-4 leading-6">Laura Villegas</div>
-                            </div>
-
-                            <div className="flex items-start">
-                                <div className="font-bold text-lg">12:00 PM</div>
-                                <div className="ml-4 leading-6">3rd Gate / BK</div>
-                            </div>
-
-                            <div className="flex items-start">
-                                <div className="font-bold text-lg">1:00 PM</div>
-                                <div className="ml-4 leading-6">Diamonds and Rust</div>
-                            </div>
-
-                            <div className="flex items-start">
-                                <div className="font-bold text-lg">2:00 PM</div>
-                                <div className="ml-4 leading-6">[Open Slot for Surprise Guest or Activity]</div>
-                            </div>
-
-                            <div className="flex items-start">
-                                <div className="font-bold text-lg">3:00 PM</div>
-                                <div className="ml-4 leading-6">Outta Hand</div>
-                            </div>
-
-                            <div className="flex items-start">
-                                <div className="font-bold text-lg">4:00 PM</div>
-                                <div className="ml-4 leading-6">Priminition</div>
-                            </div>
-                        </div>
-
-                        <h4 className="font-bold text-lg text-center mt-4">Evening Events</h4>
-
+                    <h4 className="font-bold text-lg text-center mt-4">Live Music & Performances</h4>
+                    <p>Enjoy a full lineup of live entertainment throughout the day!</p>
+                    <div className="space-y-4">
                         <div className="flex items-start">
-                            <div className="font-bold text-lg">5:00 PM</div>
+                            <div className="font-bold text-lg text-nowrap">9:00 AM</div>
                             <div className="ml-4 leading-6">
-                                Open Mic hosted by Curley Coffee with MC Bobby Narcho!
-                                Come share your talents or just enjoy the performances.
+                                Ballet Folklorico – Traditional Mexican dance performance
                             </div>
                         </div>
 
                         <div className="flex items-start">
-                            <div className="font-bold text-lg">6:00 PM</div>
-                            <div className="ml-4 leading-6">
-                                <span>Saturday Night Dance Party at Three Nations</span><br/>
-                                Featuring Southern Country Band—get ready to dance the night away!
-                                Three Nations will also be open for shopping, so check out the 30+ vendors while you’re there!
-                            </div>
+                            <div className="font-bold text-lg text-nowrap">10:00 AM</div>
+                            <div className="ml-4 leading-6">Peace Restored</div>
                         </div>
 
-                        <p className="mt-4">This event is free and open to the public! Bring your friends and family for a full day of fun.</p>
-                        <p>For more information, contact us at <Link href={'mailto:info@loveworksajo.com'}>info@loveworksajo.com</Link>.</p>
+                        <div className="flex items-start">
+                            <div className="font-bold text-lg text-nowrap">11:00 AM</div>
+                            <div className="ml-4 leading-6">Laura Villegas</div>
+                        </div>
+
+                        <div className="flex items-start">
+                            <div className="font-bold text-lg text-nowrap">12:00 PM</div>
+                            <div className="ml-4 leading-6">3rd Gate / BK</div>
+                        </div>
+
+                        <div className="flex items-start">
+                            <div className="font-bold text-lg text-nowrap">1:00 PM</div>
+                            <div className="ml-4 leading-6">Diamonds and Rust</div>
+                        </div>
+
+                        <div className="flex items-start">
+                            <div className="font-bold text-lg text-nowrap">2:00 PM</div>
+                            <div className="ml-4 leading-6">[Open Slot for Surprise Guest or Activity]</div>
+                        </div>
+
+                        <div className="flex items-start">
+                            <div className="font-bold text-lg text-nowrap">3:00 PM</div>
+                            <div className="ml-4 leading-6">Outta Hand</div>
+                        </div>
+
+                        <div className="flex flex-row items-start">
+                            <div className="font-bold text-lg text-nowrap">4:00 PM</div>
+                            <div className="ml-4 leading-6">Priminition</div>
+                        </div>
                     </div>
-                </>
-            ),
-            button: (
-                <Link target={`_blank`} rel={`noreferrer`} href={`https://maps.app.goo.gl/34mwPnUfhgn6hEgx5`}>
-                    <button name='Directions'
-                            className="text-shadow-sm bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">
-                        Directions
-                    </button>
-                </Link>
-            )
-        },
-        day3: {
-            time: '9AM - 4PM',
-            title: 'March 16',
-            date: 'March 16th',
-            description: 'A day of relaxation, family fun, and reflection to close out the festival.',
-            image: {
-                url: '/AMountain.png', alt: 'Love Works Poster'
+
+                    <h4 className="font-bold text-lg text-center mt-4">Evening Events</h4>
+
+                    <div className="flex items-start ">
+                        <div className="font-bold text-lg text-nowrap">5:00 PM</div>
+                        <div className="ml-4 leading-6">
+                            Open Mic hosted by Curley Coffee with MC Bobby Narcho!
+                            Come share your talents or just enjoy the performances.
+                        </div>
+                    </div>
+
+                    <div className="flex items-start">
+                        <div className="font-bold text-lg text-nowrap">6:00 PM</div>
+                        <div className="ml-4 leading-6">
+                            <span>Saturday Night Dance Party at Three Nations</span><br/>
+                            Featuring Southern Country Band—get ready to dance the night away!
+                            Three Nations will also be open for shopping, so check out the 30+ vendors while you’re
+                            there!
+                        </div>
+                    </div>
+
+                    <p className="mt-4 text-xl">This event is free and open to the public! Bring your friends and family
+                        for a full day of fun.</p>
+                    <p className='text-xl'>For more information, contact us at <Link
+                        href={'mailto:info@loveworksajo.com'}>info@loveworksajo.com</Link>.</p>
+                </div>
+</>
+),
+    button: (
+        <Link target={`_blank`} rel={`noreferrer`} href={`https://maps.app.goo.gl/34mwPnUfhgn6hEgx5`}>
+            <button name='Directions'
+                    className="text-shadow-sm bg-blue-500 dark:bg-gray-700 text-white shadow-gray-600 drop-shadow-lg dark:outline-1 dark:outline-gray-200 hover:bg-blue-400 dark:hover:bg-gray-600 rounded-lg px-4 py-2 mt-2">
+                Directions
+            </button>
+        </Link>
+    )
+},
+    day3: {
+        time: '9AM - 4PM',
+            title
+    :
+        'March 16',
+            date
+    :
+        'March 16th',
+            description
+    :
+        'A day of relaxation, family fun, and reflection to close out the festival.',
+            image
+    :
+        {
+            url: '/AMountain.png', alt: 'Love Works Poster'
             },
             location: {
                 name: 'Ajo Plaza', address: 'Ajo Plaza, Address 3', link: 'https://maps.app.goo.gl/34mwPnUfhgn6hEgx5'
@@ -262,8 +288,8 @@ export function Events() {
                         </div>
                     </div>
 
-                    <p className="mt-4">This event is free and open to the public! Bring your family and friends for a relaxing end to the festival.</p>
-                    <p>For more information, contact us at <Link href={'mailto:info@loveworksajo.com'}>info@loveworksajo.com</Link>.</p>
+                    <p className="mt-4 text-xl">This event is free and open to the public! Bring your family and friends for a relaxing end to the festival.</p>
+                    <p className='text-xl'>For more information, contact us at <Link href={'mailto:info@loveworksajo.com'}>info@loveworksajo.com</Link>.</p>
                 </>
             ),
             button: (
