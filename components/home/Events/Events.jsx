@@ -148,7 +148,7 @@ export function Events() {
 
                         <div className="flex items-start">
                             <div className="font-bold text-lg text-nowrap">11:00 AM</div>
-                            <div className="ml-4 leading-6">Laura Villegas</div>
+                            <div className="ml-4 leading-6">Outta Hand</div>
                         </div>
 
                         <div className="flex items-start">
@@ -163,12 +163,12 @@ export function Events() {
 
                         <div className="flex items-start">
                             <div className="font-bold text-lg text-nowrap">2:00 PM</div>
-                            <div className="ml-4 leading-6">[Open Slot for Surprise Guest or Activity]</div>
+                            <div className="ml-4 leading-6">Second Chance</div>
                         </div>
 
                         <div className="flex items-start">
                             <div className="font-bold text-lg text-nowrap">3:00 PM</div>
-                            <div className="ml-4 leading-6">Outta Hand</div>
+                            <div className="ml-4 leading-6">Laura Villegas</div>
                         </div>
 
                         <div className="flex flex-row items-start">
